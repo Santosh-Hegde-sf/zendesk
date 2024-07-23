@@ -1,0 +1,12 @@
+product: interpreted-connectivity
+component: NEWZENDESK
+version: "0.1"
+profile: interpretedConnectivity 
+componentType: library
+
+builder:
+  name: java-maven-lib
+  version: 11
+
+notifications:
+  slackChannel: ms-interpreted-connectivity-bot

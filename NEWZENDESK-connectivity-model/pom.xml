@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+<!-- Set your ORGANIZATION_ID in the groupId section to publish your DataWeave library to
+    Exchange -->
+    <!-- You can find more reference at
+    https://docs.mulesoft.com/exchange/to-publish-assets-maven#publish-an-asset-to-exchange-using-maven -->
+    <!-- <groupId>ORGANIZATION_ID</groupId> -->
+    <!-- NOTE: Remember to add your Anypoint Platform credentials in ~/.m2/settings.xml file -->
+
+    <parent>
+        <groupId>com.mulesoft.connectivity.NEWZENDESK</groupId>
+        <artifactId>NEWZENDESK-parent</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>NEWZENDESK-connectivity-model</artifactId>
+    <name>NEWZENDESK-connectivity-model</name>
+    <packaging>dw-library</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.mulesoft.connectivity</groupId>
+            <artifactId>connectivity-language</artifactId>
+            <classifier>dw-library</classifier>
+        </dependency>
+
+        <!-- Test -->
+        <dependency>
+            <groupId>org.mule.weave</groupId>
+            <artifactId>data-weave-testing-framework</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mule.weave</groupId>
+            <artifactId>http-netty-module</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mule.weave</groupId>
+            <artifactId>java-module</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+</project>

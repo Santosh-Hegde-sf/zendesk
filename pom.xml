@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.mulesoft.connectivity.NEWZENDESK</groupId>
+    <artifactId>NEWZENDESK-parent</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <name>NEWZENDESK-connector</name>
+    <packaging>pom</packaging>
+    
+    <parent>
+        <groupId>com.mulesoft.connectivity</groupId>
+        <artifactId>interpreted-connectivity-parent</artifactId>
+        <version>0.1.27</version>
+    </parent>
+
+    <modules>
+		<module>NEWZENDESK-connectivity-model</module>
+        <module>NEWZENDESK-flow-connector-model</module>
+    </modules>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.mule.weave</groupId>
+                <artifactId>data-weave-maven-plugin</artifactId>
+                <version>${data.weave.maven.plugin.version}</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <tests>
+                        <htmlReport>false</htmlReport>
+                        <coverageEnabled>true</coverageEnabled>
+                        <coverageFormat>sonar</coverageFormat>
+                    </tests>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>copy-prod-resources</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                        <configuration>
+                            <overwrite>true</overwrite>
+                            <outputDirectory>${project.build.outputDirectory}/</outputDirectory>
+                            <resources>
+                                <resource>
+                                    <directory>src/main/</directory>
+                                    <include>**/*.dwl</include>
+                                    <filtering>true</filtering>
+                                </resource>
+                            </resources>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+    <!-- Enable resolution of LW dependency in DW Extension -->
+        <dependency>
+            <groupId>com.mulesoft.connectivity</groupId>
+            <artifactId>connectivity-language</artifactId>
+            <classifier>dw-library</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.mule.weave</groupId>
+            <artifactId>core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.mule.weave</groupId>
+            <artifactId>runtime</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.mule.weave</groupId>
+            <artifactId>core-modules</artifactId>
+            <scope>test</scope>
+        </dependency>
+         <!-- Test -->
+        <dependency>
+            <groupId>org.mule.weave</groupId>
+            <artifactId>data-weave-testing-framework</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.mule.weave</groupId>
+            <artifactId>http-netty-module</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.mule.weave</groupId>
+            <artifactId>java-module</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>
