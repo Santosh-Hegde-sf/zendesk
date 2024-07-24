@@ -17,7 +17,7 @@ type api_v2_tickets__ticket_id__put_Type = {
 var api_v2_tickets__ticket_id__put = {
   name: "UpdateTicket",
   displayName: "UpdateTicket",
-  executor: (parameter: api_v2_tickets__ticket_id__put_Type.request, connection: HttpConnection): Result<HttpResponse<api_v2_tickets__ticket_id__put_Type.response>, HttpResponse<Any>> -> do {
+  executor: (parameter: api_v2_tickets__ticket_id__put_Type.request, connection: HttpConnection): Result<HttpResponse<api_v2_tickets__ticket_id__put_Type.response>, HttpResponse<{}>> -> do {
       var uri = serializeUriParams(parameter.uri, {})
       var query = parameter.query default {} withSerializationConfig {}
       var headers = serializeHeaders(parameter.headers default {}, {})
@@ -25,7 +25,7 @@ var api_v2_tickets__ticket_id__put = {
       ---
       success(connection({
         method: "PUT",
-        path: "/api/v2/tickets/$(uri.ticket_id)",
+        path: "/api/v2/tickets/$(uri.ticket_id as String)",
         queryParams: query,
         headers: headers,
         cookie: cookie,

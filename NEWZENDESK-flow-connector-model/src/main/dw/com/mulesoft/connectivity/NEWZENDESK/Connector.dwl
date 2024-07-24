@@ -28,57 +28,107 @@ import * from com::mulesoft::connectivity::NEWZENDESK::types::Types
 
 type Error = {}
 
+type get_ticket_input_type = {
+   	ticket_id: Number 
+}
+
+type put_ticket_input_type = {
+   	ticket_id: Number,
+   	ticket: TicketUpdateRequest 
+} 
+
 var createTicket =      
-   mapInputAndOutputOperation(
-   api_v2_tickets_post,
-   (parameters: TicketCreateRequest) -> {
-           query: {},
-           headers: { 'Accept': 'application/json'},
-           cookie: {},
-           (body: parameters)
-   },
-   (response)  -> do {
-      if (response.status == 201)
-          success(response.body)
-      else
-          failure(response.body as Error)
-   },
-   (response)  -> do {
-          failure(response.body as Error)
-   }
+    mapInputAndOutputOperation(
+        api_v2_tickets_post,
+        (parameters: TicketCreateRequest) -> {
+                query: {},
+                headers: { 'Accept': 'application/json' },
+                cookie: {},
+                (body: parameters)
+            },
+        (response) -> do {
+                if (response.status == 201)
+                    success(response.body)
+                else
+                    failure(response.body as Error)
+            },
+        (response) -> do {
+                failure(response.body as Error)
+            }
+ )
+
+var updateTicket =      
+    mapInputAndOutputOperation(
+        api_v2_tickets__ticket_id__put,
+        (parameters: put_ticket_input_type) -> {
+                query: {},
+                uri: { ticket_id: parameters.ticket_id },
+                headers: { 'Accept': 'application/json' },
+                cookie: {},
+                (body: { ticket: parameters.ticket })
+            },
+        (response) -> do {
+                if (response.status == 201)
+                    success(response.body)
+                else
+                    failure(response.body as Error)
+            },
+        (response) -> do {
+                failure(response.body as Error)
+            }
+ )
+
+var showTicket =      
+    mapInputAndOutputOperation(
+        api_v2_tickets__ticket_id__get,
+        (parameters: get_ticket_input_type) -> {
+                query: {},
+                uri: { ticket_id: parameters.ticket_id },
+                headers: { 'Accept': 'application/json' },
+                cookie: {}
+            },
+        (response) -> do {
+                if (response.status == 200)
+                    success(response.body)
+                else
+                    failure(response.body as Error)
+            },
+        (response) -> do {
+                failure(response.body as Error)
+            }
  )
 
 
 
 @ConnectorElement
 var connector = {
-  name: "NEWZENDESK",
-  displayName: "NEWZENDESK",
-  version: "1.0.0-SNAPSHOT",
-  releaseStatus: "PILOT",
-  description: "Support API - IC",
-  icons: [
-    {
-      name: "NEWZENDESK",
-      alternateText: "NEWZENDESK",
-      resource: "icon/icon.svg",
-      size: 1,
-      dimensions: "0x0"
-    }
-  ],
-  vendor: "auto-generated",
-  connections: {
-    basicAuth: basicAuth
-  },
-  testConnection: test,
-  operations: {
-    CreateTicket: createTicket,
+        name: "NEWZENDESK",
+        displayName: "NEWZENDESK",
+        version: "1.0.0-SNAPSHOT",
+        releaseStatus: "PILOT",
+        description: "Support API - IC",
+        icons: [
+                {
+                    name: "NEWZENDESK",
+                    alternateText: "NEWZENDESK",
+                    resource: "icon/icon.svg",
+                    size: 1,
+                    dimensions: "0x0"
+                }
+            ],
+        vendor: "auto-generated",
+        connections: {
+                basicAuth: basicAuth
+            },
+        testConnection: test,
+        operations: {
+                CreateTicket: createTicket,
     // DeleteTicket: api_v2_tickets__ticket_id__delete,
     // ListTickets: api_v2_tickets_get,
-    // ShowTicket: api_v2_tickets__ticket_id__get,
-    // UpdateTicket: api_v2_tickets__ticket_id__put
-  },
-  valueProviders: {},
-  metadataProviders: {}
-}
+                ShowTicket: showTicket,
+                UpdateTicket: updateTicket
+            },
+        valueProviders: {},
+        metadataProviders: {}
+    }
 

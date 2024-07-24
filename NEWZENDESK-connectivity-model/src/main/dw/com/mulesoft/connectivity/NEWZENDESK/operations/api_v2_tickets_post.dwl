@@ -22,14 +22,14 @@ var api_v2_tickets_post = {
       var headers = serializeHeaders(parameter.headers default {}, {})
       var cookie = serializeCookies(parameter.cookie default {}, {})
       ---
-      success(connection({
+      success(log(connection({
         method: "POST",
         path: "/api/v2/tickets",
         queryParams: query,
         headers: headers,
         cookie: cookie,
         (body: parameter.body) if (parameter.body?)
-      }) as HttpResponse<api_v2_tickets_post_Type.response>)
+      }) as HttpResponse<api_v2_tickets_post_Type.response>))
     }
 }
 
