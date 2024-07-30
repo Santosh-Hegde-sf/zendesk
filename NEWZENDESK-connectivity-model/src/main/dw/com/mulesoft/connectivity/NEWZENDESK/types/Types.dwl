@@ -381,7 +381,7 @@ type GroupMembershipResponse = {
 }
 
 type TicketUpdateResponse = {
-  ticket?: {}
+  ticket?: TicketObject
 }
 
 type AccountSettingsObject = {
@@ -530,39 +530,39 @@ type TicketCommentsCountResponse = {
 type TicketUpdateInput = {
   additional_collaborators?: Array<CollaboratorObject> ,
   assignee_email?: String ,
-  assignee_id?: Number <~ {format: "integer"},
-  attribute_value_ids?: Array<Number <~ {format: "integer"}> ,
-  collaborator_ids?: Array<Number <~ {format: "integer"}> ,
+  assignee_id?: Number ,
+  attribute_value_ids?: Array<Number > ,
+  collaborator_ids?: Array<Number > ,
   comment?: TicketCommentObject,
   custom_fields?: Array<CustomFieldObject> ,
-  custom_status_id?: Number <~ {format: "integer"},
+  custom_status_id?: Number ,
   due_at?: String <~ {format: "date-time"} | Null,
   email_ccs?: Array<EmailCCObject> ,
   external_id?: String ,
   followers?: Array<FollowerObject> ,
-  group_id?: Number <~ {format: "integer"},
-  organization_id?: Number <~ {format: "integer"},
+  group_id?: Number ,
+  organization_id?: Number ,
   priority?: "urgent" | "high" | "normal" | "low" ,
-  problem_id?: Number <~ {format: "integer"},
-  requester_id?: Number <~ {format: "integer"},
+  problem_id?: Number ,
+  requester_id?: Number ,
   safe_update?: Boolean ,
-  sharing_agreement_ids?: Array<Number <~ {format: "integer"}> ,
+  sharing_agreement_ids?: Array<Number > ,
   status?: "new" | "open" | "pending" | "hold" | "solved" | "closed" ,
   subject?: String ,
   tags?: Array<String> ,
   "type"?: "problem" | "incident" | "question" | "task" ,
   updated_stamp?: String <~ {format: "date-time"},
-  brand_id?: Number <~ {format: "integer"},
+  brand_id?: Number ,
   collaborators?: Array<CollaboratorObject> ,
-  email_cc_ids?: Array<Number <~ {format: "integer"}> ,
-  follower_ids?: Array<Number <~ {format: "integer"}> ,
-  macro_ids?: Array<Number <~ {format: "integer"}> ,
+  email_cc_ids?: Array<Number > ,
+  follower_ids?: Array<Number > ,
+  macro_ids?: Array<Number > ,
   raw_subject?: String ,
   recipient?: String ,
-  submitter_id?: Number <~ {format: "integer"},
-  ticket_form_id?: Number <~ {format: "integer"},
+  submitter_id?: Number ,
+  ticket_form_id?: Number ,
   via?: ViaObject ,
-  via_followup_source_id?: Number <~ {format: "integer"},
+  via_followup_source_id?: Number ,
   description?: String
 }
 
@@ -2085,7 +2085,7 @@ type TicketCreateInput = {
   safe_update?: Boolean ,
   sharing_agreement_ids?: Array<Number <~ {format: "integer"}> ,
   status?: "new" | "open" | "pending" | "hold" | "solved" | "closed" ,
-  subject?: String ,
+  subject: String ,
   tags?: Array<String> ,
   "type"?: "problem" | "incident" | "question" | "task" ,
   updated_stamp?: String <~ {format: "date-time"},
@@ -2100,8 +2100,7 @@ type TicketCreateInput = {
   ticket_form_id?: Number <~ {format: "integer"},
   via?: ViaObject ,
   via_followup_source_id?: Number <~ {format: "integer"},
-  description: String,
-  test?:String
+  description: String
 }
 
 type TicketCreateVoicemailTicketVoiceCommentInput = {
@@ -2959,6 +2958,6 @@ type GroupsResponse = {
 }
 
 type TicketUpdateRequest = {
-  ticket?: TicketUpdateInput
+  ticket: TicketUpdateInput
 }
 

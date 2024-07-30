@@ -33,13 +33,11 @@ type get_ticket_input_type = {
 }
 
 type put_ticket_input_type = {
-   	ticket_id: Number,
-   	ticket: TicketUpdateRequest 
-} 
+    ticket_id: Number,
+    ticket: TicketUpdateInput
+}
 
-var createTicket =      
-    mapInputAndOutputOperation(
-        api_v2_tickets_post,
+var createTicket = mapInputAndOutputOperation(api_v2_tickets_post,
         (parameters: TicketCreateRequest) -> {
                 query: {},
                 headers: { 'Accept': 'application/json' },
@@ -57,15 +55,13 @@ var createTicket =
             }
  )
 
-var updateTicket =      
-    mapInputAndOutputOperation(
-        api_v2_tickets__ticket_id__put,
+var updateTicket = mapInputAndOutputOperation(api_v2_tickets__ticket_id__put,
         (parameters: put_ticket_input_type) -> {
                 query: {},
                 uri: { ticket_id: parameters.ticket_id },
                 headers: { 'Accept': 'application/json' },
                 cookie: {},
-                (body: { ticket: parameters.ticket })
+                (body:{ticket: parameters.ticket})
             },
         (response) -> do {
                 if (response.status == 201)
@@ -102,8 +98,8 @@ var showTicket =
 
 @ConnectorElement
 var connector = {
-        name: "NEWZENDESK",
-        displayName: "NEWZENDESK",
+        name: "NEWZENDESK2",
+        displayName: "NEWZENDESK2",
         version: "1.0.0-SNAPSHOT",
         releaseStatus: "PILOT",
         description: "Support API - IC",
