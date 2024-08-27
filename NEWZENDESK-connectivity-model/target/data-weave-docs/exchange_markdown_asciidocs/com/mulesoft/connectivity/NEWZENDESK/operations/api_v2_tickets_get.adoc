@@ -1,0 +1,60 @@
+==== _com::mulesoft::connectivity::NEWZENDESK::operations::api_v2_tickets_get_
+__________________________________________
+
+
+
+= Index
+
+
+=== Variables
+[%header, cols="1,3"]
+|===
+| Name | Description
+| link:#api_v2_tickets_get-index [api_v2_tickets_get] | 
+|===
+
+
+=== Types
+[%header, cols="1,3"]
+|===
+| Name | Description
+|link:#api_v2_tickets_get_type-index [api_v2_tickets_get_Type] | 
+|===
+
+
+
+
+
+__________________________________________
+
+
+
+
+
+= Variables
+
+== **api_v2_tickets_get** link:#index [↑↑]
+
+
+
+
+
+__________________________________________
+
+= Types
+
+=== **api_v2_tickets_get_Type** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ "200": TicketsResponse, request: HttpRequestType<{| query: { external_id?: String }, headers: Object, cookie: Object |}>, response: TicketsResponse }
+----
+
+
+
+

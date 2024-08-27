@@ -1,0 +1,60 @@
+==== _com::mulesoft::connectivity::NEWZENDESK::operations::api_v2_tickets__ticket_id__delete_
+__________________________________________
+
+
+
+= Index
+
+
+=== Variables
+[%header, cols="1,3"]
+|===
+| Name | Description
+| link:#api_v2_tickets__ticket_id__delete-index [api_v2_tickets__ticket_id__delete] | 
+|===
+
+
+=== Types
+[%header, cols="1,3"]
+|===
+| Name | Description
+|link:#api_v2_tickets__ticket_id__delete_type-index [api_v2_tickets__ticket_id__delete_Type] | 
+|===
+
+
+
+
+
+__________________________________________
+
+
+
+
+
+= Variables
+
+== **api_v2_tickets__ticket_id__delete** link:#index [↑↑]
+
+
+
+
+
+__________________________________________
+
+= Types
+
+=== **api_v2_tickets__ticket_id__delete_Type** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ "204": Any, request: HttpRequestType<{| uri: {| ticket_id: Number <~ {format: "integer"} |}, query: Object, headers: Object, cookie: Object |}>, response: Any }
+----
+
+
+
+

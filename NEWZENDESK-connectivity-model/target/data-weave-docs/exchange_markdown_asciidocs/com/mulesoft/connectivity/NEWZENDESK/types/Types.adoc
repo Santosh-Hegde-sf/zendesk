@@ -1,0 +1,5758 @@
+==== _com::mulesoft::connectivity::NEWZENDESK::types::Types_
+__________________________________________
+
+
+
+= Index
+
+
+
+
+=== Types
+[%header, cols="1,3"]
+|===
+| Name | Description
+|link:#accountsettingsactivefeaturesobject-index [AccountSettingsActiveFeaturesObject] | 
+|link:#accountsettingsagentobject-index [AccountSettingsAgentObject] | 
+|link:#accountsettingsapiobject-index [AccountSettingsApiObject] | 
+|link:#accountsettingsappsobject-index [AccountSettingsAppsObject] | 
+|link:#accountsettingsbillingobject-index [AccountSettingsBillingObject] | 
+|link:#accountsettingsbrandingobject-index [AccountSettingsBrandingObject] | 
+|link:#accountsettingsbrandsobject-index [AccountSettingsBrandsObject] | 
+|link:#accountsettingscdnobject-index [AccountSettingsCdnObject] | 
+|link:#accountsettingschatobject-index [AccountSettingsChatObject] | 
+|link:#accountsettingscrosssellobject-index [AccountSettingsCrossSellObject] | 
+|link:#accountsettingsgooddataadvancedanalyticsobject-index [AccountSettingsGooddataAdvancedAnalyticsObject] | 
+|link:#accountsettingsgoogleappsobject-index [AccountSettingsGoogleAppsObject] | 
+|link:#accountsettingsgroupobject-index [AccountSettingsGroupObject] | 
+|link:#accountsettingslimitsobject-index [AccountSettingsLimitsObject] | 
+|link:#accountsettingslocalizationobject-index [AccountSettingsLocalizationObject] | 
+|link:#accountsettingslotusobject-index [AccountSettingsLotusObject] | 
+|link:#accountsettingsmetricsobject-index [AccountSettingsMetricsObject] | 
+|link:#accountsettingsobject-index [AccountSettingsObject] | 
+|link:#accountsettingsonboardingobject-index [AccountSettingsOnboardingObject] | 
+|link:#accountsettingsresponse-index [AccountSettingsResponse] | 
+|link:#accountsettingsroutingobject-index [AccountSettingsRoutingObject] | 
+|link:#accountsettingsruleobject-index [AccountSettingsRuleObject] | 
+|link:#accountsettingssideconversationsobject-index [AccountSettingsSideConversationsObject] | 
+|link:#accountsettingsstatisticsobject-index [AccountSettingsStatisticsObject] | 
+|link:#accountsettingsticketformobject-index [AccountSettingsTicketFormObject] | 
+|link:#accountsettingsticketobject-index [AccountSettingsTicketObject] | 
+|link:#accountsettingsticketsharingpartnersobject-index [AccountSettingsTicketSharingPartnersObject] | 
+|link:#accountsettingstwitterobject-index [AccountSettingsTwitterObject] | 
+|link:#accountsettingsuserobject-index [AccountSettingsUserObject] | 
+|link:#accountsettingsvoiceobject-index [AccountSettingsVoiceObject] | 
+|link:#actionobject-index [ActionObject] | 
+|link:#actionsobject-index [ActionsObject] | 
+|link:#activitiescountresponse-index [ActivitiesCountResponse] | 
+|link:#activitiesresponse-index [ActivitiesResponse] | 
+|link:#activityobject-index [ActivityObject] | 
+|link:#activityresponse-index [ActivityResponse] | 
+|link:#assigneefieldassignableagentobject-index [AssigneeFieldAssignableAgentObject] | 
+|link:#assigneefieldassignablegroupagentsresponse-index [AssigneeFieldAssignableGroupAgentsResponse] | 
+|link:#assigneefieldassignablegroupobject-index [AssigneeFieldAssignableGroupObject] | 
+|link:#assigneefieldassignablegroupsandagentssearchresponse-index [AssigneeFieldAssignableGroupsAndAgentsSearchResponse] | 
+|link:#assigneefieldassignablegroupsresponse-index [AssigneeFieldAssignableGroupsResponse] | 
+|link:#assigneefieldassignablesearchagentobject-index [AssigneeFieldAssignableSearchAgentObject] | 
+|link:#assigneefieldassignablesearchgroupobject-index [AssigneeFieldAssignableSearchGroupObject] | 
+|link:#attachmentbaseobject-index [AttachmentBaseObject] | 
+|link:#attachmentobject-index [AttachmentObject] | 
+|link:#attachmentresponse-index [AttachmentResponse] | 
+|link:#attachmentthumbnails-index [AttachmentThumbnails] | 
+|link:#attachmentupdateinput-index [AttachmentUpdateInput] | 
+|link:#attachmentupdaterequest-index [AttachmentUpdateRequest] | 
+|link:#attachmentuploadresponse-index [AttachmentUploadResponse] | 
+|link:#auditlogobject-index [AuditLogObject] | 
+|link:#auditlogresponse-index [AuditLogResponse] | 
+|link:#auditlogsresponse-index [AuditLogsResponse] | 
+|link:#auditobject-index [AuditObject] | 
+|link:#authorobject-index [AuthorObject] | 
+|link:#automationobject-index [AutomationObject] | 
+|link:#automationresponse-index [AutomationResponse] | 
+|link:#automationsresponse-index [AutomationsResponse] | 
+|link:#batcherroritem-index [BatchErrorItem] | 
+|link:#batchjobrequest-index [BatchJobRequest] | 
+|link:#batchjobresponse-index [BatchJobResponse] | 
+|link:#bookmarkcreaterequest-index [BookmarkCreateRequest] | 
+|link:#bookmarkinput-index [BookmarkInput] | 
+|link:#bookmarkobject-index [BookmarkObject] | 
+|link:#bookmarkresponse-index [BookmarkResponse] | 
+|link:#bookmarksresponse-index [BookmarksResponse] | 
+|link:#brandcreaterequest-index [BrandCreateRequest] | 
+|link:#brandobject-index [BrandObject] | 
+|link:#brandresponse-index [BrandResponse] | 
+|link:#brandupdaterequest-index [BrandUpdateRequest] | 
+|link:#brandsresponse-index [BrandsResponse] | 
+|link:#bulkupdatedefaultcustomstatusrequest-index [BulkUpdateDefaultCustomStatusRequest] | 
+|link:#bulkupdatedefaultcustomstatusresponse-index [BulkUpdateDefaultCustomStatusResponse] | 
+|link:#channelframeworkpushresultsresponse-index [ChannelFrameworkPushResultsResponse] | 
+|link:#channelframeworkresultobject-index [ChannelFrameworkResultObject] | 
+|link:#channelframeworkresultstatusobject-index [ChannelFrameworkResultStatusObject] | 
+|link:#collaboratorobject-index [CollaboratorObject] | 
+|link:#compliancedeletionstatusobject-index [ComplianceDeletionStatusObject] | 
+|link:#compliancedeletionstatusesresponse-index [ComplianceDeletionStatusesResponse] | 
+|link:#conditionobject-index [ConditionObject] | 
+|link:#conditionsobject-index [ConditionsObject] | 
+|link:#countorganizationobject-index [CountOrganizationObject] | 
+|link:#countorganizationresponse-index [CountOrganizationResponse] | 
+|link:#countresponse-index [CountResponse] | 
+|link:#createorganizationrequest-index [CreateOrganizationRequest] | 
+|link:#createresourceresult-index [CreateResourceResult] | 
+|link:#currentuserresponse-index [CurrentUserResponse] | 
+|link:#cursorbasedexportincrementalticketsresponse-index [CursorBasedExportIncrementalTicketsResponse] | 
+|link:#cursorbasedexportincrementalusersresponse-index [CursorBasedExportIncrementalUsersResponse] | 
+|link:#customfieldobject-index [CustomFieldObject] | 
+|link:#customfieldoptionobject-index [CustomFieldOptionObject] | 
+|link:#customfieldoptionresponse-index [CustomFieldOptionResponse] | 
+|link:#customfieldoptionsresponse-index [CustomFieldOptionsResponse] | 
+|link:#customobject-index [CustomObject] | 
+|link:#customobjectcreateinput-index [CustomObjectCreateInput] | 
+|link:#customobjectfield-index [CustomObjectField] | 
+|link:#customobjectfieldresponse-index [CustomObjectFieldResponse] | 
+|link:#customobjectfieldscreaterequest-index [CustomObjectFieldsCreateRequest] | 
+|link:#customobjectfieldsresponse-index [CustomObjectFieldsResponse] | 
+|link:#customobjectlimitsresponse-index [CustomObjectLimitsResponse] | 
+|link:#customobjectrecord-index [CustomObjectRecord] | 
+|link:#customobjectrecordresponse-index [CustomObjectRecordResponse] | 
+|link:#customobjectrecordsbulkcreaterequest-index [CustomObjectRecordsBulkCreateRequest] | 
+|link:#customobjectrecordscreaterequest-index [CustomObjectRecordsCreateRequest] | 
+|link:#customobjectrecordsjobsresponse-index [CustomObjectRecordsJobsResponse] | 
+|link:#customobjectrecordsresponse-index [CustomObjectRecordsResponse] | 
+|link:#customobjectrecordsupsertrequest-index [CustomObjectRecordsUpsertRequest] | 
+|link:#customobjectresponse-index [CustomObjectResponse] | 
+|link:#customobjectscreaterequest-index [CustomObjectsCreateRequest] | 
+|link:#customobjectsresponse-index [CustomObjectsResponse] | 
+|link:#customroleconfigurationobject-index [CustomRoleConfigurationObject] | 
+|link:#customroleobject-index [CustomRoleObject] | 
+|link:#customroleresponse-index [CustomRoleResponse] | 
+|link:#customrolesresponse-index [CustomRolesResponse] | 
+|link:#customstatuscreateinput-index [CustomStatusCreateInput] | 
+|link:#customstatuscreaterequest-index [CustomStatusCreateRequest] | 
+|link:#customstatusobject-index [CustomStatusObject] | 
+|link:#customstatusresponse-index [CustomStatusResponse] | 
+|link:#customstatusupdateinput-index [CustomStatusUpdateInput] | 
+|link:#customstatusupdaterequest-index [CustomStatusUpdateRequest] | 
+|link:#customstatusesresponse-index [CustomStatusesResponse] | 
+|link:#definitionsresponse-index [DefinitionsResponse] | 
+|link:#deleteduserobject-index [DeletedUserObject] | 
+|link:#deleteduserresponse-index [DeletedUserResponse] | 
+|link:#deletedusersresponse-index [DeletedUsersResponse] | 
+|link:#dynamiccontentobject-index [DynamicContentObject] | 
+|link:#dynamiccontentresponse-index [DynamicContentResponse] | 
+|link:#dynamiccontentvariantobject-index [DynamicContentVariantObject] | 
+|link:#dynamiccontentvariantresponse-index [DynamicContentVariantResponse] | 
+|link:#dynamiccontentvariantsresponse-index [DynamicContentVariantsResponse] | 
+|link:#dynamiccontentsresponse-index [DynamicContentsResponse] | 
+|link:#emailccobject-index [EmailCCObject] | 
+|link:#error-index [Error] | 
+|link:#errors-index [Errors] | 
+|link:#essentialscardobject-index [EssentialsCardObject] | 
+|link:#essentialscardresponse-index [EssentialsCardResponse] | 
+|link:#essentialscardsresponse-index [EssentialsCardsResponse] | 
+|link:#exportincrementalorganizationsresponse-index [ExportIncrementalOrganizationsResponse] | 
+|link:#exportincrementalticketeventsresponse-index [ExportIncrementalTicketEventsResponse] | 
+|link:#followerobject-index [FollowerObject] | 
+|link:#groupmembershipobject-index [GroupMembershipObject] | 
+|link:#groupmembershipresponse-index [GroupMembershipResponse] | 
+|link:#groupmembershipsresponse-index [GroupMembershipsResponse] | 
+|link:#groupobject-index [GroupObject] | 
+|link:#groupresponse-index [GroupResponse] | 
+|link:#groupslapoliciesresponse-index [GroupSLAPoliciesResponse] | 
+|link:#groupslapolicyfilterconditionobject-index [GroupSLAPolicyFilterConditionObject] | 
+|link:#groupslapolicyfilterdefinitionresponse-index [GroupSLAPolicyFilterDefinitionResponse] | 
+|link:#groupslapolicyfilterobject-index [GroupSLAPolicyFilterObject] | 
+|link:#groupslapolicymetricobject-index [GroupSLAPolicyMetricObject] | 
+|link:#groupslapolicyobject-index [GroupSLAPolicyObject] | 
+|link:#groupslapolicyresponse-index [GroupSLAPolicyResponse] | 
+|link:#groupscountobject-index [GroupsCountObject] | 
+|link:#groupsresponse-index [GroupsResponse] | 
+|link:#hostmappingobject-index [HostMappingObject] | 
+|link:#incrementalskillbasedrouting-index [IncrementalSkillBasedRouting] | 
+|link:#incrementalskillbasedroutingattribute-index [IncrementalSkillBasedRoutingAttribute] | 
+|link:#incrementalskillbasedroutingattributevalue-index [IncrementalSkillBasedRoutingAttributeValue] | 
+|link:#incrementalskillbasedroutinginstancevalue-index [IncrementalSkillBasedRoutingInstanceValue] | 
+|link:#jobstatusobject-index [JobStatusObject] | 
+|link:#jobstatusresponse-index [JobStatusResponse] | 
+|link:#jobstatusresultobject-index [JobStatusResultObject] | 
+|link:#jobstatusesresponse-index [JobStatusesResponse] | 
+|link:#listdeletedticketsresponse-index [ListDeletedTicketsResponse] | 
+|link:#listticketcollaboratorsresponse-index [ListTicketCollaboratorsResponse] | 
+|link:#listticketemailccsresponse-index [ListTicketEmailCCsResponse] | 
+|link:#listticketfollowersresponse-index [ListTicketFollowersResponse] | 
+|link:#listticketincidentsresponse-index [ListTicketIncidentsResponse] | 
+|link:#listticketproblemsresponse-index [ListTicketProblemsResponse] | 
+|link:#localeobject-index [LocaleObject] | 
+|link:#localeresponse-index [LocaleResponse] | 
+|link:#localesresponse-index [LocalesResponse] | 
+|link:#macroapplyticketresponse-index [MacroApplyTicketResponse] | 
+|link:#macroattachmentobject-index [MacroAttachmentObject] | 
+|link:#macroattachmentresponse-index [MacroAttachmentResponse] | 
+|link:#macroattachmentsresponse-index [MacroAttachmentsResponse] | 
+|link:#macrocategoriesresponse-index [MacroCategoriesResponse] | 
+|link:#macrocommonobject-index [MacroCommonObject] | 
+|link:#macroinput-index [MacroInput] | 
+|link:#macroobject-index [MacroObject] | 
+|link:#macroresponse-index [MacroResponse] | 
+|link:#macroupdatemanyinput-index [MacroUpdateManyInput] | 
+|link:#macrosresponse-index [MacrosResponse] | 
+|link:#offsetpaginationobject-index [OffsetPaginationObject] | 
+|link:#organizationfieldobject-index [OrganizationFieldObject] | 
+|link:#organizationfieldresponse-index [OrganizationFieldResponse] | 
+|link:#organizationfieldsresponse-index [OrganizationFieldsResponse] | 
+|link:#organizationmembershipobject-index [OrganizationMembershipObject] | 
+|link:#organizationmembershipresponse-index [OrganizationMembershipResponse] | 
+|link:#organizationmembershipsresponse-index [OrganizationMembershipsResponse] | 
+|link:#organizationmergelistresponse-index [OrganizationMergeListResponse] | 
+|link:#organizationmergerequest-index [OrganizationMergeRequest] | 
+|link:#organizationmergeresponse-index [OrganizationMergeResponse] | 
+|link:#organizationmetadataobject-index [OrganizationMetadataObject] | 
+|link:#organizationobject-index [OrganizationObject] | 
+|link:#organizationresponse-index [OrganizationResponse] | 
+|link:#organizationsubscriptioncreaterequest-index [OrganizationSubscriptionCreateRequest] | 
+|link:#organizationsubscriptioninput-index [OrganizationSubscriptionInput] | 
+|link:#organizationsubscriptionobject-index [OrganizationSubscriptionObject] | 
+|link:#organizationsubscriptionresponse-index [OrganizationSubscriptionResponse] | 
+|link:#organizationsubscriptionsresponse-index [OrganizationSubscriptionsResponse] | 
+|link:#organizationsrelatedresponse-index [OrganizationsRelatedResponse] | 
+|link:#organizationsresponse-index [OrganizationsResponse] | 
+|link:#pagination-index [Pagination] | 
+|link:#pushnotificationdevicesinput-index [PushNotificationDevicesInput] | 
+|link:#pushnotificationdevicesrequest-index [PushNotificationDevicesRequest] | 
+|link:#queueobject-index [QueueObject] | 
+|link:#queueresponse-index [QueueResponse] | 
+|link:#queuesresponse-index [QueuesResponse] | 
+|link:#recoversuspendedticketresponse-index [RecoverSuspendedTicketResponse] | 
+|link:#recoversuspendedticketunprocessablecontentresponse-index [RecoverSuspendedTicketUnprocessableContentResponse] | 
+|link:#recoversuspendedticketsresponse-index [RecoverSuspendedTicketsResponse] | 
+|link:#relationshipfilterdefinition-index [RelationshipFilterDefinition] | 
+|link:#relationshipfilterdefinitionresponse-index [RelationshipFilterDefinitionResponse] | 
+|link:#renewsessionresponse-index [RenewSessionResponse] | 
+|link:#requestobject-index [RequestObject] | 
+|link:#requestresponse-index [RequestResponse] | 
+|link:#requestsresponse-index [RequestsResponse] | 
+|link:#resourcecollectionobject-index [ResourceCollectionObject] | 
+|link:#resourcecollectionresponse-index [ResourceCollectionResponse] | 
+|link:#resourcecollectionsresponse-index [ResourceCollectionsResponse] | 
+|link:#reverselookupresponse-index [ReverseLookupResponse] | 
+|link:#slapoliciesresponse-index [SLAPoliciesResponse] | 
+|link:#slapolicyfilterconditionobject-index [SLAPolicyFilterConditionObject] | 
+|link:#slapolicyfilterdefinitionresponse-index [SLAPolicyFilterDefinitionResponse] | 
+|link:#slapolicyfilterobject-index [SLAPolicyFilterObject] | 
+|link:#slapolicymetricobject-index [SLAPolicyMetricObject] | 
+|link:#slapolicyobject-index [SLAPolicyObject] | 
+|link:#slapolicyresponse-index [SLAPolicyResponse] | 
+|link:#satisfactionratingobject-index [SatisfactionRatingObject] | 
+|link:#satisfactionratingresponse-index [SatisfactionRatingResponse] | 
+|link:#satisfactionratingscountresponse-index [SatisfactionRatingsCountResponse] | 
+|link:#satisfactionratingsresponse-index [SatisfactionRatingsResponse] | 
+|link:#satisfactionreasonobject-index [SatisfactionReasonObject] | 
+|link:#satisfactionreasonresponse-index [SatisfactionReasonResponse] | 
+|link:#satisfactionreasonsresponse-index [SatisfactionReasonsResponse] | 
+|link:#searchcountresponse-index [SearchCountResponse] | 
+|link:#searchexportresponse-index [SearchExportResponse] | 
+|link:#searchresponse-index [SearchResponse] | 
+|link:#searchresultobject-index [SearchResultObject] | 
+|link:#sessionobject-index [SessionObject] | 
+|link:#sessionresponse-index [SessionResponse] | 
+|link:#sessionsresponse-index [SessionsResponse] | 
+|link:#sharingagreementobject-index [SharingAgreementObject] | 
+|link:#sharingagreementresponse-index [SharingAgreementResponse] | 
+|link:#sharingagreementsresponse-index [SharingAgreementsResponse] | 
+|link:#skillbasedroutingattributedefinitions-index [SkillBasedRoutingAttributeDefinitions] | 
+|link:#skillbasedroutingattributeobject-index [SkillBasedRoutingAttributeObject] | 
+|link:#skillbasedroutingattributeresponse-index [SkillBasedRoutingAttributeResponse] | 
+|link:#skillbasedroutingattributevalueobject-index [SkillBasedRoutingAttributeValueObject] | 
+|link:#skillbasedroutingattributevalueresponse-index [SkillBasedRoutingAttributeValueResponse] | 
+|link:#skillbasedroutingattributevaluesresponse-index [SkillBasedRoutingAttributeValuesResponse] | 
+|link:#skillbasedroutingattributesresponse-index [SkillBasedRoutingAttributesResponse] | 
+|link:#skillbasedroutingticketfulfilledresponse-index [SkillBasedRoutingTicketFulfilledResponse] | 
+|link:#supportaddressobject-index [SupportAddressObject] | 
+|link:#supportaddressresponse-index [SupportAddressResponse] | 
+|link:#supportaddressesresponse-index [SupportAddressesResponse] | 
+|link:#suspendedticketobject-index [SuspendedTicketObject] | 
+|link:#suspendedticketresponse-index [SuspendedTicketResponse] | 
+|link:#suspendedticketsattachmentsresponse-index [SuspendedTicketsAttachmentsResponse] | 
+|link:#suspendedticketsexportresponse-index [SuspendedTicketsExportResponse] | 
+|link:#suspendedticketsresponse-index [SuspendedTicketsResponse] | 
+|link:#systemfieldoptionobject-index [SystemFieldOptionObject] | 
+|link:#tagcountobject-index [TagCountObject] | 
+|link:#tagcountresponse-index [TagCountResponse] | 
+|link:#taglisttagobject-index [TagListTagObject] | 
+|link:#tagurlobject-index [TagUrlObject] | 
+|link:#tagsbyobjectidresponse-index [TagsByObjectIdResponse] | 
+|link:#tagsresponse-index [TagsResponse] | 
+|link:#targetbasecamp-index [TargetBasecamp] | 
+|link:#targetcampfire-index [TargetCampfire] | 
+|link:#targetclickatell-index [TargetClickatell] | 
+|link:#targetcommonfields-index [TargetCommonFields] | 
+|link:#targetemail-index [TargetEmail] | 
+|link:#targetfailureobject-index [TargetFailureObject] | 
+|link:#targetfailureresponse-index [TargetFailureResponse] | 
+|link:#targetfailuresresponse-index [TargetFailuresResponse] | 
+|link:#targetflowdock-index [TargetFlowdock] | 
+|link:#targetgetsatisfaction-index [TargetGetSatisfaction] | 
+|link:#targethttp-index [TargetHTTP] | 
+|link:#targetjira-index [TargetJira] | 
+|link:#targetobject-index [TargetObject] | 
+|link:#targetpivotal-index [TargetPivotal] | 
+|link:#targetresponse-index [TargetResponse] | 
+|link:#targettwitter-index [TargetTwitter] | 
+|link:#targeturl-index [TargetURL] | 
+|link:#targetyammer-index [TargetYammer] | 
+|link:#targetsresponse-index [TargetsResponse] | 
+|link:#ticketauditobject-index [TicketAuditObject] | 
+|link:#ticketauditresponse-index [TicketAuditResponse] | 
+|link:#ticketauditviaobject-index [TicketAuditViaObject] | 
+|link:#ticketauditscountresponse-index [TicketAuditsCountResponse] | 
+|link:#ticketauditsresponse-index [TicketAuditsResponse] | 
+|link:#ticketauditsresponsenonecursor-index [TicketAuditsResponseNoneCursor] | 
+|link:#ticketbulkimportrequest-index [TicketBulkImportRequest] | 
+|link:#ticketchatcommentredactionresponse-index [TicketChatCommentRedactionResponse] | 
+|link:#ticketcommentobject-index [TicketCommentObject] | 
+|link:#ticketcommentresponse-index [TicketCommentResponse] | 
+|link:#ticketcommentscountresponse-index [TicketCommentsCountResponse] | 
+|link:#ticketcommentsresponse-index [TicketCommentsResponse] | 
+|link:#ticketcreateinput-index [TicketCreateInput] | 
+|link:#ticketcreaterequest-index [TicketCreateRequest] | 
+|link:#ticketcreatevoicemailticketinput-index [TicketCreateVoicemailTicketInput] | 
+|link:#ticketcreatevoicemailticketrequest-index [TicketCreateVoicemailTicketRequest] | 
+|link:#ticketcreatevoicemailticketvoicecommentinput-index [TicketCreateVoicemailTicketVoiceCommentInput] | 
+|link:#ticketfieldcountresponse-index [TicketFieldCountResponse] | 
+|link:#ticketfieldcustomstatusobject-index [TicketFieldCustomStatusObject] | 
+|link:#ticketfieldobject-index [TicketFieldObject] | 
+|link:#ticketfieldresponse-index [TicketFieldResponse] | 
+|link:#ticketfieldsresponse-index [TicketFieldsResponse] | 
+|link:#ticketformobject-index [TicketFormObject] | 
+|link:#ticketformresponse-index [TicketFormResponse] | 
+|link:#ticketformsresponse-index [TicketFormsResponse] | 
+|link:#ticketimportinput-index [TicketImportInput] | 
+|link:#ticketimportrequest-index [TicketImportRequest] | 
+|link:#ticketmergeinput-index [TicketMergeInput] | 
+|link:#ticketmetriceventbaseobject-index [TicketMetricEventBaseObject] | 
+|link:#ticketmetriceventbreachobject-index [TicketMetricEventBreachObject] | 
+|link:#ticketmetriceventgroupslaobject-index [TicketMetricEventGroupSLAObject] | 
+|link:#ticketmetriceventslaobject-index [TicketMetricEventSLAObject] | 
+|link:#ticketmetriceventupdatestatusobject-index [TicketMetricEventUpdateStatusObject] | 
+|link:#ticketmetriceventsresponse-index [TicketMetricEventsResponse] | 
+|link:#ticketmetricobject-index [TicketMetricObject] | 
+|link:#ticketmetrictimeobject-index [TicketMetricTimeObject] | 
+|link:#ticketmetricsbyticketmetricidresponse-index [TicketMetricsByTicketMetricIdResponse] | 
+|link:#ticketmetricsresponse-index [TicketMetricsResponse] | 
+|link:#ticketobject-index [TicketObject] | 
+|link:#ticketrelatedinformation-index [TicketRelatedInformation] | 
+|link:#ticketresponse-index [TicketResponse] | 
+|link:#ticketskipcreation-index [TicketSkipCreation] | 
+|link:#ticketskipobject-index [TicketSkipObject] | 
+|link:#ticketskipsresponse-index [TicketSkipsResponse] | 
+|link:#ticketupdateinput-index [TicketUpdateInput] | 
+|link:#ticketupdaterequest-index [TicketUpdateRequest] | 
+|link:#ticketupdateresponse-index [TicketUpdateResponse] | 
+|link:#ticketscreaterequest-index [TicketsCreateRequest] | 
+|link:#ticketsresponse-index [TicketsResponse] | 
+|link:#timebasedexportincrementalticketsresponse-index [TimeBasedExportIncrementalTicketsResponse] | 
+|link:#timebasedexportincrementalusersresponse-index [TimeBasedExportIncrementalUsersResponse] | 
+|link:#trialaccountobject-index [TrialAccountObject] | 
+|link:#trialaccountresponse-index [TrialAccountResponse] | 
+|link:#triggeractiondefinitionobject-index [TriggerActionDefinitionObject] | 
+|link:#triggeractiondiffobject-index [TriggerActionDiffObject] | 
+|link:#triggeractionobject-index [TriggerActionObject] | 
+|link:#triggerbatchrequest-index [TriggerBatchRequest] | 
+|link:#triggerbulkupdateitem-index [TriggerBulkUpdateItem] | 
+|link:#triggerbulkupdaterequest-index [TriggerBulkUpdateRequest] | 
+|link:#triggercategoriesresponse-index [TriggerCategoriesResponse] | 
+|link:#triggercategory-index [TriggerCategory] | 
+|link:#triggercategorybatchrequest-index [TriggerCategoryBatchRequest] | 
+|link:#triggercategoryid-index [TriggerCategoryId] | 
+|link:#triggercategoryrequest-index [TriggerCategoryRequest] | 
+|link:#triggercategoryrequestrequired-index [TriggerCategoryRequestRequired] | 
+|link:#triggercategoryresponse-index [TriggerCategoryResponse] | 
+|link:#triggercategoryrulecounts-index [TriggerCategoryRuleCounts] | 
+|link:#triggerchangeobject-index [TriggerChangeObject] | 
+|link:#triggerconditiondefinitionobjectall-index [TriggerConditionDefinitionObjectAll] | 
+|link:#triggerconditiondefinitionobjectany-index [TriggerConditionDefinitionObjectAny] | 
+|link:#triggerconditiondiffobject-index [TriggerConditionDiffObject] | 
+|link:#triggerconditionobject-index [TriggerConditionObject] | 
+|link:#triggerconditionsdiffobject-index [TriggerConditionsDiffObject] | 
+|link:#triggerconditionsobject-index [TriggerConditionsObject] | 
+|link:#triggerdefinitionobject-index [TriggerDefinitionObject] | 
+|link:#triggerdefinitionresponse-index [TriggerDefinitionResponse] | 
+|link:#triggerobject-index [TriggerObject] | 
+|link:#triggerresponse-index [TriggerResponse] | 
+|link:#triggerrevisionresponse-index [TriggerRevisionResponse] | 
+|link:#triggerrevisionsresponse-index [TriggerRevisionsResponse] | 
+|link:#triggersnapshotobject-index [TriggerSnapshotObject] | 
+|link:#triggerwithcategoryrequest-index [TriggerWithCategoryRequest] | 
+|link:#triggersresponse-index [TriggersResponse] | 
+|link:#twitterchannelobject-index [TwitterChannelObject] | 
+|link:#twitterchannelresponse-index [TwitterChannelResponse] | 
+|link:#twitterchanneltwicketstatusresponse-index [TwitterChannelTwicketStatusResponse] | 
+|link:#twitterchannelsresponse-index [TwitterChannelsResponse] | 
+|link:#updateresourceresult-index [UpdateResourceResult] | 
+|link:#urlobject-index [UrlObject] | 
+|link:#usercreateinput-index [UserCreateInput] | 
+|link:#userfieldobject-index [UserFieldObject] | 
+|link:#userfieldresponse-index [UserFieldResponse] | 
+|link:#userfieldsresponse-index [UserFieldsResponse] | 
+|link:#userforadmin-index [UserForAdmin] | 
+|link:#userforenduser-index [UserForEndUser] | 
+|link:#useridentitiesresponse-index [UserIdentitiesResponse] | 
+|link:#useridentityobject-index [UserIdentityObject] | 
+|link:#useridentityresponse-index [UserIdentityResponse] | 
+|link:#userinput-index [UserInput] | 
+|link:#usermergebyidinput-index [UserMergeByIdInput] | 
+|link:#usermergepropertiesinput-index [UserMergePropertiesInput] | 
+|link:#userobject-index [UserObject] | 
+|link:#userpasswordrequirementsresponse-index [UserPasswordRequirementsResponse] | 
+|link:#userrelatedobject-index [UserRelatedObject] | 
+|link:#userrelatedresponse-index [UserRelatedResponse] | 
+|link:#userrequest-index [UserRequest] | 
+|link:#userresponse-index [UserResponse] | 
+|link:#usersrequest-index [UsersRequest] | 
+|link:#usersresponse-index [UsersResponse] | 
+|link:#viaobject-index [ViaObject] | 
+|link:#viewcountobject-index [ViewCountObject] | 
+|link:#viewcountresponse-index [ViewCountResponse] | 
+|link:#viewcountsresponse-index [ViewCountsResponse] | 
+|link:#viewexportresponse-index [ViewExportResponse] | 
+|link:#viewobject-index [ViewObject] | 
+|link:#viewresponse-index [ViewResponse] | 
+|link:#viewscountresponse-index [ViewsCountResponse] | 
+|link:#viewsresponse-index [ViewsResponse] | 
+|link:#workspaceinput-index [WorkspaceInput] | 
+|link:#workspaceobject-index [WorkspaceObject] | 
+|link:#workspaceresponse-index [WorkspaceResponse] | 
+|===
+
+
+
+
+
+__________________________________________
+
+
+
+
+
+__________________________________________
+
+= Types
+
+=== **AccountSettingsActiveFeaturesObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ advanced_analytics?: Boolean, agent_forwarding?: Boolean, allow_ccs?: Boolean, allow_email_template_customization?: Boolean, automatic_answers?: Boolean, bcc_archiving?: Boolean, benchmark_opt_out?: Boolean, business_hours?: Boolean, chat?: Boolean, chat_about_my_ticket?: Boolean, csat_reason_code?: Boolean, custom_dkim_domain?: Boolean, customer_context_as_default?: Boolean, customer_satisfaction?: Boolean, dynamic_contents?: Boolean, explore?: Boolean, explore_on_support_ent_plan?: Boolean, explore_on_support_pro_plan?: Boolean, facebook?: Boolean, facebook_login?: Boolean, fallback_composer?: Boolean, forum_analytics?: Boolean, good_data_and_explore?: Boolean, google_login?: Boolean, insights?: Boolean, is_abusive?: Boolean, light_agents?: Boolean, markdown?: Boolean, on_hold_status?: Boolean, organization_access_enabled?: Boolean, rich_content_in_emails?: Boolean, sandbox?: Boolean, satisfaction_prediction?: Boolean, suspended_ticket_notification?: Boolean, ticket_forms?: Boolean, ticket_tagging?: Boolean, topic_suggestion?: Boolean, twitter?: Boolean, twitter_login?: Boolean, user_org_fields?: Boolean, user_tagging?: Boolean, voice?: Boolean }
+----
+
+
+=== **AccountSettingsAgentObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ agent_home?: Boolean, agent_workspace?: Boolean, aw_self_serve_migration_enabled?: Boolean, focus_mode?: Boolean, idle_timeout_enabled?: Boolean, unified_agent_statuses?: Boolean }
+----
+
+
+=== **AccountSettingsApiObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ accepted_api_agreement?: Boolean, api_password_access?: String, api_token_access?: String }
+----
+
+
+=== **AccountSettingsAppsObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ create_private?: Boolean, create_public?: Boolean, use?: Boolean }
+----
+
+
+=== **AccountSettingsBillingObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ backend?: String }
+----
+
+
+=== **AccountSettingsBrandingObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ favicon_url?: String | Null, header_color?: String, header_logo_url?: String | Null, page_background_color?: String, tab_background_color?: String, text_color?: String }
+----
+
+
+=== **AccountSettingsBrandsObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ default_brand_id?: Number <~ {format: "integer"}, require_brand_on_new_tickets?: Boolean }
+----
+
+
+=== **AccountSettingsCdnObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ cdn_provider?: String, fallback_cdn_provider?: String, hosts?: Array<{ name?: String, url?: String }> }
+----
+
+
+=== **AccountSettingsChatObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ available?: Boolean, enabled?: Boolean, integrated?: Boolean, maximum_request_count?: Number <~ {format: "integer"}, welcome_message?: String }
+----
+
+
+=== **AccountSettingsCrossSellObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ show_chat_tooltip?: Boolean, xsell_source?: String | Null }
+----
+
+
+=== **AccountSettingsGooddataAdvancedAnalyticsObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ enabled?: Boolean }
+----
+
+
+=== **AccountSettingsGoogleAppsObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ has_google_apps?: Boolean, has_google_apps_admin?: Boolean }
+----
+
+
+=== **AccountSettingsGroupObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ check_group_name_uniqueness?: Boolean }
+----
+
+
+=== **AccountSettingsLimitsObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ attachment_size?: Number <~ {format: "integer"} }
+----
+
+
+=== **AccountSettingsLocalizationObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ locale_ids?: Array<Number <~ {format: "integer"}> }
+----
+
+
+=== **AccountSettingsLotusObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ pod_id?: Number <~ {format: "integer"}, prefer_lotus?: Boolean, reporting?: Boolean }
+----
+
+
+=== **AccountSettingsMetricsObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ account_size?: String }
+----
+
+
+=== **AccountSettingsObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ active_features?: AccountSettingsActiveFeaturesObject, agents?: AccountSettingsAgentObject, api?: AccountSettingsApiObject, apps?: AccountSettingsAppsObject, billing?: AccountSettingsBillingObject, branding?: AccountSettingsBrandingObject, brands?: AccountSettingsBrandsObject, cdn?: AccountSettingsCdnObject, chat?: AccountSettingsChatObject, cross_sell?: AccountSettingsCrossSellObject, gooddata_advanced_analytics?: AccountSettingsGooddataAdvancedAnalyticsObject, google_apps?: AccountSettingsGoogleAppsObject, groups?: AccountSettingsGroupObject, limits?: AccountSettingsLimitsObject, localization?: AccountSettingsLocalizationObject, lotus?: AccountSettingsLotusObject, metrics?: AccountSettingsMetricsObject, onboarding?: AccountSettingsOnboardingObject, routing?: AccountSettingsRoutingObject, rule?: AccountSettingsRuleObject, side_conversations?: AccountSettingsSideConversationsObject, statistics?: AccountSettingsStatisticsObject, ticket_form?: AccountSettingsTicketFormObject, ticket_sharing_partners?: AccountSettingsTicketSharingPartnersObject, tickets?: AccountSettingsTicketObject, twitter?: AccountSettingsTwitterObject, user?: AccountSettingsUserObject, voice?: AccountSettingsVoiceObject }
+----
+
+
+=== **AccountSettingsOnboardingObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ checklist_onboarding_version?: Number <~ {format: "integer"}, onboarding_segments?: String | Null, product_sign_up?: String | Null }
+----
+
+
+=== **AccountSettingsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ settings?: AccountSettingsObject }
+----
+
+
+=== **AccountSettingsRoutingObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ autorouting_tag?: String, enabled?: Boolean, max_email_capacity?: Number <~ {format: "integer"}, max_messaging_capacity?: Number <~ {format: "integer"}, reassignment_messaging_enabled?: Boolean, reassignment_messaging_timeout?: Number <~ {format: "integer"}, reassignment_talk_timeout?: Number <~ {format: "integer"} }
+----
+
+
+=== **AccountSettingsRuleObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ macro_most_used?: Boolean, macro_order?: String, skill_based_filtered_views?: Array<Object>, using_skill_based_routing?: Boolean }
+----
+
+
+=== **AccountSettingsSideConversationsObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ email_channel?: Boolean, msteams_channel?: Boolean, show_in_context_panel?: Boolean, slack_channel?: Boolean, tickets_channel?: Boolean }
+----
+
+
+=== **AccountSettingsStatisticsObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ forum?: Boolean, rule_usage?: Boolean, search?: Boolean }
+----
+
+
+=== **AccountSettingsTicketFormObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ raw_ticket_forms_instructions?: String, ticket_forms_instructions?: String }
+----
+
+
+=== **AccountSettingsTicketObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ accepted_new_collaboration_tos?: Boolean, agent_collision?: Boolean, agent_invitation_enabled?: Boolean, agent_ticket_deletion?: Boolean, allow_group_reset?: Boolean, assign_default_organization?: Boolean, assign_tickets_upon_solve?: Boolean, auto_translation_enabled?: Boolean, auto_updated_ccs_followers_rules?: Boolean, chat_sla_enablement?: Boolean, collaboration?: Boolean, comments_public_by_default?: Boolean, email_attachments?: Boolean, emoji_autocompletion?: Boolean, follower_and_email_cc_collaborations?: Boolean, has_color_text?: Boolean, is_first_comment_private_enabled?: Boolean, light_agent_email_ccs_allowed?: Boolean, list_empty_views?: Boolean, list_newest_comments_first?: Boolean, markdown_ticket_comments?: Boolean, maximum_personal_views_to_list?: Number <~ {format: "integer"}, private_attachments?: Boolean, rich_text_comments?: Boolean, status_hold?: Boolean, tagging?: Boolean, using_skill_based_routing?: Boolean }
+----
+
+
+=== **AccountSettingsTicketSharingPartnersObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ support_addresses?: Array<String> }
+----
+
+
+=== **AccountSettingsTwitterObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ shorten_url?: String }
+----
+
+
+=== **AccountSettingsUserObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ agent_created_welcome_emails?: Boolean, end_user_phone_number_validation?: Boolean, have_gravatars_enabled?: Boolean, language_selection?: Boolean, multiple_organizations?: Boolean, tagging?: Boolean, time_zone_selection?: Boolean }
+----
+
+
+=== **AccountSettingsVoiceObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ agent_confirmation_when_forwarding?: Boolean, agent_wrap_up_after_calls?: Boolean, enabled?: Boolean, logging?: Boolean, maximum_queue_size?: Number <~ {format: "integer"}, maximum_queue_wait_time?: Number <~ {format: "integer"}, only_during_business_hours?: Boolean, outbound_enabled?: Boolean, recordings_public?: Boolean, uk_mobile_forwarding?: Boolean }
+----
+
+
+=== **ActionObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ field?: String, value?: String }
+----
+
+
+=== **ActionsObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ actions?: Array<ActionObject> }
+----
+
+
+=== **ActivitiesCountResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ count?: { refreshed_at?: String <~ {format: "date-time"}, value?: Number <~ {format: "integer"} } }
+----
+
+
+=== **ActivitiesResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ activities?: Array<ActivityObject>, actors?: Array<Object>, count?: Number <~ {format: "integer"}, next_page?: String | Null, previous_page?: String | Null, users?: Array<Object> }
+----
+
+
+=== **ActivityObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ actor?: Object, actor_id?: Number <~ {format: "integer"}, created_at?: String, id?: Number <~ {format: "integer"}, object?: Object, target?: Object, title?: String, updated_at?: String, url?: String, user?: Object, user_id?: Number <~ {format: "integer"}, verb?: String }
+----
+
+
+=== **ActivityResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ activity?: ActivityObject <~ {label: "Ticket Activities"} }
+----
+
+
+=== **AssigneeFieldAssignableAgentObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ avatar_url?: String | Null, id?: Number <~ {format: "integer"}, name?: String }
+----
+
+
+=== **AssigneeFieldAssignableGroupAgentsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ agents?: Array<AssigneeFieldAssignableAgentObject>, count?: Number <~ {format: "integer"}, next_page?: String | Null, previous_page?: String | Null }
+----
+
+
+=== **AssigneeFieldAssignableGroupObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ description?: String, id?: Number <~ {format: "integer"}, name?: String }
+----
+
+
+=== **AssigneeFieldAssignableGroupsAndAgentsSearchResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ agents?: Array<AssigneeFieldAssignableSearchAgentObject>, count?: Number <~ {format: "integer"}, groups?: Array<AssigneeFieldAssignableSearchGroupObject> }
+----
+
+
+=== **AssigneeFieldAssignableGroupsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ count?: Number <~ {format: "integer"}, groups?: Array<AssigneeFieldAssignableGroupObject>, next_page?: String | Null, previous_page?: String | Null }
+----
+
+
+=== **AssigneeFieldAssignableSearchAgentObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ group?: String, group_id?: Number <~ {format: "integer"}, id?: Number <~ {format: "integer"}, name?: String, photo_url?: String | Null }
+----
+
+
+=== **AssigneeFieldAssignableSearchGroupObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ id?: Number <~ {format: "integer"}, name?: String }
+----
+
+
+=== **AttachmentBaseObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ content_type?: String, content_url?: String, deleted?: Boolean, file_name?: String, height?: String, id?: Number <~ {format: "integer"}, inline?: Boolean, malware_access_override?: Boolean, malware_scan_result?: String, mapped_content_url?: String, size?: Number <~ {format: "integer"}, url?: String, width?: String }
+----
+
+
+=== **AttachmentObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+Object
+----
+
+
+=== **AttachmentResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ attachment?: AttachmentObject }
+----
+
+
+=== **AttachmentThumbnails** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ thumbnails?: Array<AttachmentBaseObject> }
+----
+
+
+=== **AttachmentUpdateInput** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ malware_access_override?: Boolean }
+----
+
+
+=== **AttachmentUpdateRequest** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ attachment?: AttachmentUpdateInput }
+----
+
+
+=== **AttachmentUploadResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ upload?: { attachment?: AttachmentObject, attachments?: Array<AttachmentObject>, token?: String } }
+----
+
+
+=== **AuditLogObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ action?: String, action_label?: String, actor_id?: Number <~ {format: "integer"}, actor_name?: String, change_description?: String, created_at?: String <~ {format: "date-time"}, id?: Number <~ {format: "integer"}, ip_address?: String, source_id?: Number <~ {format: "integer"}, source_label?: String, source_type?: String, url?: String }
+----
+
+
+=== **AuditLogResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ audit_log?: AuditLogObject }
+----
+
+
+=== **AuditLogsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ audit_logs?: Array<AuditLogObject> }
+----
+
+
+=== **AuditObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ author_id?: Number <~ {format: "integer"}, created_at?: String <~ {format: "date-time"}, events?: Array<{ body?: String, field_name?: String, id?: Number <~ {format: "integer"}, "type"?: String, value?: String | Number <~ {format: "integer"} }>, id?: Number <~ {format: "integer"}, metadata?: Object, ticket_id?: Number <~ {format: "integer"}, via?: ViaObject }
+----
+
+
+=== **AuthorObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ email?: String, id?: Number <~ {format: "integer"}, name?: String }
+----
+
+
+=== **AutomationObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ actions?: Array<ActionObject>, active?: Boolean, conditions?: ConditionsObject, created_at?: String <~ {format: "date-time"}, "default"?: Boolean, id?: Number <~ {format: "integer"}, position?: Number <~ {format: "integer"}, raw_title?: String, title?: String, updated_at?: String <~ {format: "date-time"} }
+----
+
+
+=== **AutomationResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ automation?: AutomationObject }
+----
+
+
+=== **AutomationsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ automations?: Array<AutomationObject>, count?: Number <~ {format: "integer"}, next_page?: String | Null, previous_page?: String | Null }
+----
+
+
+=== **BatchErrorItem** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+Object
+----
+
+
+=== **BatchJobRequest** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ job?: { action?: "patch", items?: { trigger_categories?: Array<TriggerCategoryBatchRequest>, triggers?: Array<TriggerBatchRequest> } } }
+----
+
+
+=== **BatchJobResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ errors?: Array<BatchErrorItem>, results?: { trigger_categories?: Array<TriggerCategory>, triggers?: Array<TriggerObject> }, status?: "complete" | "failed" }
+----
+
+
+=== **BookmarkCreateRequest** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ bookmark?: BookmarkInput }
+----
+
+
+=== **BookmarkInput** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ ticket_id?: Number <~ {format: "integer"} }
+----
+
+
+=== **BookmarkObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ created_at?: String <~ {format: "date-time"}, id?: Number <~ {format: "integer"}, ticket?: Object, url?: String }
+----
+
+
+=== **BookmarkResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ bookmark?: BookmarkObject <~ {label: "Bookmarks"} }
+----
+
+
+=== **BookmarksResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+Object
+----
+
+
+=== **BrandCreateRequest** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ brand?: BrandObject <~ {label: "Brands"} }
+----
+
+
+=== **BrandObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ active?: Boolean, brand_url?: String, created_at?: String <~ {format: "date-time"}, "default"?: Boolean, has_help_center?: Boolean, help_center_state?: "enabled" | "disabled" | "restricted", host_mapping?: String, id?: Number <~ {format: "integer"}, is_deleted?: Boolean, logo?: AttachmentObject, name: String, signature_template?: String, subdomain: String, ticket_form_ids?: Array<Number <~ {format: "integer"}>, updated_at?: String <~ {format: "date-time"}, url?: String }
+----
+
+
+=== **BrandResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ brand?: BrandObject <~ {label: "Brands"} }
+----
+
+
+=== **BrandUpdateRequest** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ brand?: BrandObject <~ {label: "Brands"} }
+----
+
+
+=== **BrandsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+Object
+----
+
+
+=== **BulkUpdateDefaultCustomStatusRequest** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ ids?: String }
+----
+
+
+=== **BulkUpdateDefaultCustomStatusResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+Object
+----
+
+
+=== **ChannelFrameworkPushResultsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ results?: Array<ChannelFrameworkResultObject> }
+----
+
+
+=== **ChannelFrameworkResultObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ external_resource_id?: String, status?: ChannelFrameworkResultStatusObject }
+----
+
+
+=== **ChannelFrameworkResultStatusObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ code?: String, description?: String }
+----
+
+
+=== **CollaboratorObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ email?: String, name?: String }
+----
+
+
+=== **ComplianceDeletionStatusObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ account_subdomain: String, action: String, application: String, created_at: String, executer_id: Number <~ {format: "integer"} | Null, user_id: Number <~ {format: "integer"} }
+----
+
+
+=== **ComplianceDeletionStatusesResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ compliance_deletion_statuses?: Array<ComplianceDeletionStatusObject> }
+----
+
+
+=== **ConditionObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ field?: String, operator?: String, value?: String }
+----
+
+
+=== **ConditionsObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ all?: Array<ConditionObject>, any?: Array<ConditionObject> }
+----
+
+
+=== **CountOrganizationObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ refreshed_at?: String, value?: Number <~ {format: "integer"} }
+----
+
+
+=== **CountOrganizationResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ count?: CountOrganizationObject }
+----
+
+
+=== **CountResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ count?: { refreshed_at?: String, value?: Number <~ {format: "integer"} } }
+----
+
+
+=== **CreateOrganizationRequest** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ organization: OrganizationObject }
+----
+
+
+=== **CreateResourceResult** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ id: Number <~ {format: "integer"}, index: Number <~ {format: "integer"} }
+----
+
+
+=== **CurrentUserResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ user?: UserObject & { authenticity_token?: String } }
+----
+
+
+=== **CursorBasedExportIncrementalTicketsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ after_cursor?: String | Null, after_url?: String | Null, before_cursor?: String | Null, before_url?: String | Null, end_of_stream?: Boolean, tickets?: Array<TicketObject> }
+----
+
+
+=== **CursorBasedExportIncrementalUsersResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ after_cursor?: String | Null, after_url?: String | Null, before_cursor?: String | Null, before_url?: String | Null, end_of_stream?: Boolean, users?: Array<UserObject> }
+----
+
+
+=== **CustomFieldObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ active?: Boolean, created_at?: String <~ {format: "date-time"}, custom_field_options?: Array<CustomFieldOptionObject>, description?: String, id?: Number <~ {format: "integer"}, key: String, position?: Number <~ {format: "integer"}, raw_description?: String, raw_title?: String, regexp_for_validation?: String | Null, relationship_filter?: Object, relationship_target_type?: String, system?: Boolean, tag?: String, title: String, "type": String, updated_at?: String <~ {format: "date-time"}, url?: String }
+----
+
+
+=== **CustomFieldOptionObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ id?: Number <~ {format: "integer"}, name: String, position?: Number <~ {format: "integer"}, raw_name?: String, url?: String, value: String }
+----
+
+
+=== **CustomFieldOptionResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ custom_field_option?: CustomFieldOptionObject }
+----
+
+
+=== **CustomFieldOptionsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ count?: Number <~ {format: "integer"}, custom_field_options?: Array<CustomFieldOptionObject>, next_page?: String | Null, previous_page?: String | Null }
+----
+
+
+=== **CustomObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ created_at?: String <~ {format: "date-time"}, created_by_user_id?: String, description?: String, key: String, raw_description?: String, raw_title?: String, raw_title_pluralized?: String, title: String, title_pluralized: String, updated_at?: String <~ {format: "date-time"}, updated_by_user_id?: String, url?: String }
+----
+
+
+=== **CustomObjectCreateInput** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ key?: String, title?: String, title_pluralized?: String }
+----
+
+
+=== **CustomObjectField** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+Object
+----
+
+
+=== **CustomObjectFieldResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ custom_object_field?: CustomObjectField }
+----
+
+
+=== **CustomObjectFieldsCreateRequest** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ custom_object_field?: CustomObjectField }
+----
+
+
+=== **CustomObjectFieldsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ custom_object_fields?: Array<CustomObjectField> }
+----
+
+
+=== **CustomObjectLimitsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ count?: Number <~ {format: "integer"}, limit?: Number <~ {format: "integer"} }
+----
+
+
+=== **CustomObjectRecord** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ created_at?: String <~ {format: "date-time"}, created_by_user_id?: String, custom_object_fields?: Object, custom_object_key?: String, external_id?: String | Null, id?: String, name: String, updated_at?: String <~ {format: "date-time"}, updated_by_user_id?: String, url?: String }
+----
+
+
+=== **CustomObjectRecordResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ custom_object_record?: CustomObjectRecord }
+----
+
+
+=== **CustomObjectRecordsBulkCreateRequest** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ job?: { action?: String, items?: Array<CustomObjectRecord> } }
+----
+
+
+=== **CustomObjectRecordsCreateRequest** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ custom_object_record?: CustomObjectRecord }
+----
+
+
+=== **CustomObjectRecordsJobsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ job_status?: { id?: String, message?: String | Null, progress?: Number <~ {format: "integer"} | Null, results?: Array<CustomObjectRecord> | Null, status?: String, total?: Number <~ {format: "integer"}, url?: String } }
+----
+
+
+=== **CustomObjectRecordsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ count?: Number <~ {format: "integer"}, custom_object_records?: Array<CustomObjectRecord>, links?: { next: String | Null, prev: String | Null }, meta?: { after_cursor: String | Null, before_cursor: String | Null, has_more: Boolean } }
+----
+
+
+=== **CustomObjectRecordsUpsertRequest** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ custom_object_record?: CustomObjectRecord }
+----
+
+
+=== **CustomObjectResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ custom_object?: CustomObject }
+----
+
+
+=== **CustomObjectsCreateRequest** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ custom_object?: CustomObjectCreateInput }
+----
+
+
+=== **CustomObjectsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ custom_objects?: Array<CustomObject> }
+----
+
+
+=== **CustomRoleConfigurationObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ assign_tickets_to_any_group?: Boolean, chat_access?: Boolean, end_user_list_access?: String, end_user_profile_access?: String, explore_access?: String, forum_access?: String, forum_access_restricted_content?: Boolean, group_access?: Boolean, light_agent?: Boolean, macro_access?: String, manage_business_rules?: Boolean, manage_contextual_workspaces?: Boolean, manage_dynamic_content?: Boolean, manage_extensions_and_channels?: Boolean, manage_facebook?: Boolean, manage_organization_fields?: Boolean, manage_ticket_fields?: Boolean, manage_ticket_forms?: Boolean, manage_user_fields?: Boolean, moderate_forums?: Boolean, organization_editing?: Boolean, organization_notes_editing?: Boolean, report_access?: String, side_conversation_create?: Boolean, ticket_access?: String, ticket_comment_access?: String, ticket_deletion?: Boolean, ticket_editing?: Boolean, ticket_merge?: Boolean, ticket_tag_editing?: Boolean, twitter_search_access?: Boolean, user_view_access?: String, view_access?: String, view_deleted_tickets?: Boolean, voice_access?: Boolean, voice_dashboard_access?: Boolean }
+----
+
+
+=== **CustomRoleObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ configuration?: CustomRoleConfigurationObject, created_at?: String <~ {format: "date-time"}, description?: String, id?: Number <~ {format: "integer"}, name: String, role_type: Number <~ {format: "integer"}, team_member_count?: Number <~ {format: "integer"}, updated_at?: String <~ {format: "date-time"} }
+----
+
+
+=== **CustomRoleResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ custom_role?: CustomRoleObject <~ {label: "Custom Agent Roles"} }
+----
+
+
+=== **CustomRolesResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ custom_roles?: Array<CustomRoleObject> }
+----
+
+
+=== **CustomStatusCreateInput** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+Object
+----
+
+
+=== **CustomStatusCreateRequest** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ custom_status?: CustomStatusCreateInput }
+----
+
+
+=== **CustomStatusObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ active?: Boolean, agent_label: String, created_at?: String <~ {format: "date-time"}, "default"?: Boolean, description?: String, end_user_description?: String, end_user_label?: String, id?: Number <~ {format: "integer"}, raw_agent_label?: String, raw_description?: String, raw_end_user_description?: String, raw_end_user_label?: String, status_category: "new" | "open" | "pending" | "hold" | "solved", updated_at?: String <~ {format: "date-time"} }
+----
+
+
+=== **CustomStatusResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ custom_status?: CustomStatusObject }
+----
+
+
+=== **CustomStatusUpdateInput** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ active?: Boolean, agent_label?: String, description?: String, end_user_description?: String, end_user_label?: String }
+----
+
+
+=== **CustomStatusUpdateRequest** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ custom_status?: CustomStatusUpdateInput }
+----
+
+
+=== **CustomStatusesResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ custom_statuses?: Array<CustomStatusObject> }
+----
+
+
+=== **DefinitionsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ definitions?: { conditions_all?: Array<{ group?: String, nullable?: Boolean, operators?: Array<{ terminal?: Boolean, title?: String, value?: String }>, repeatable?: Boolean, subject?: String, title?: String, "type"?: String, values?: Array<{ enabled?: Boolean, title?: String, value?: String }> }>, conditions_any?: Array<{ group?: String, nullable?: Boolean, operators?: Array<{ terminal?: Boolean, title?: String, value?: String }>, repeatable?: Boolean, subject?: String, title?: String, "type"?: String, values?: Array<{ enabled?: Boolean, title?: String, value?: String }> }> } }
+----
+
+
+=== **DeletedUserObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ active: Boolean, created_at: String, email: String, id: Number <~ {format: "integer"}, locale: String, locale_id: Number <~ {format: "integer"}, name: String, organization_id: Number <~ {format: "integer"}, phone: String | Null, photo: Object | Null, role: String, shared_phone_number: String | Null, time_zone: String, updated_at: String, url: String }
+----
+
+
+=== **DeletedUserResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ deleted_user?: DeletedUserObject }
+----
+
+
+=== **DeletedUsersResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ deleted_users?: Array<DeletedUserObject> }
+----
+
+
+=== **DynamicContentObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ created_at?: String <~ {format: "date-time"}, default_locale_id: Number <~ {format: "integer"}, id?: Number <~ {format: "integer"}, name: String, outdated?: Boolean, placeholder?: String, updated_at?: String <~ {format: "date-time"}, url?: String, variants: Array<DynamicContentVariantObject> }
+----
+
+
+=== **DynamicContentResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ item?: DynamicContentObject <~ {label: "Dynamic Content Items"} }
+----
+
+
+=== **DynamicContentVariantObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ active?: Boolean, content: String, created_at?: String <~ {format: "date-time"}, "default"?: Boolean, id?: Number <~ {format: "integer"}, locale_id: Number <~ {format: "integer"}, outdated?: Boolean, updated_at?: String <~ {format: "date-time"}, url?: String }
+----
+
+
+=== **DynamicContentVariantResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ variant?: DynamicContentVariantObject }
+----
+
+
+=== **DynamicContentVariantsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ variants?: Array<DynamicContentVariantObject> }
+----
+
+
+=== **DynamicContentsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ items?: Array<DynamicContentObject> }
+----
+
+
+=== **EmailCCObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+Object
+----
+
+
+=== **Error** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ code: String, detail?: String, id?: String, links?: Object, source?: Object, status?: String, title: String }
+----
+
+
+=== **Errors** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ errors?: Array<Error> }
+----
+
+
+=== **EssentialsCardObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ created_at?: String <~ {format: "date-time"}, "default"?: Boolean, fields: Array<Object>, id?: String | Null, key?: String, layout?: String, max_count?: Number <~ {format: "integer"}, updated_at?: String <~ {format: "date-time"} }
+----
+
+
+=== **EssentialsCardResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ object_layout?: EssentialsCardObject }
+----
+
+
+=== **EssentialsCardsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ object_layouts?: Array<EssentialsCardObject> }
+----
+
+
+=== **ExportIncrementalOrganizationsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ count?: Number <~ {format: "integer"}, end_of_stream?: Boolean, end_time?: Number <~ {format: "integer"}, next_page?: String | Null, organizations?: Array<OrganizationObject> }
+----
+
+
+=== **ExportIncrementalTicketEventsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ count?: Number <~ {format: "integer"}, end_of_stream?: Boolean, end_time?: Number <~ {format: "integer"}, next_page?: String | Null, ticket_events?: Array<TicketMetricEventBaseObject> }
+----
+
+
+=== **FollowerObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ action?: "put" | "delete", user_email?: String, user_id?: String }
+----
+
+
+=== **GroupMembershipObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ created_at?: String <~ {format: "date-time"}, "default"?: Boolean, group_id: Number <~ {format: "integer"}, id?: Number <~ {format: "integer"}, updated_at?: String <~ {format: "date-time"}, url?: String, user_id: Number <~ {format: "integer"} }
+----
+
+
+=== **GroupMembershipResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ group_membership?: GroupMembershipObject }
+----
+
+
+=== **GroupMembershipsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ group_memberships?: Array<GroupMembershipObject> }
+----
+
+
+=== **GroupObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ created_at?: String <~ {format: "date-time"}, "default"?: Boolean, deleted?: Boolean, description?: String, id?: Number <~ {format: "integer"}, is_public?: Boolean, name: String, updated_at?: String <~ {format: "date-time"}, url?: String }
+----
+
+
+=== **GroupResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ group?: GroupObject }
+----
+
+
+=== **GroupSLAPoliciesResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ count?: Number <~ {format: "integer"}, group_sla_policies?: Array<GroupSLAPolicyObject>, next_page?: String | Null, previous_page?: String | Null }
+----
+
+
+=== **GroupSLAPolicyFilterConditionObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ field?: String, operator?: String, value?: Array<String | Number <~ {format: "integer"}> }
+----
+
+
+=== **GroupSLAPolicyFilterDefinitionResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ definitions?: { all?: Array<{ group?: String, operators?: Array<{ title?: String, value?: String }>, title?: String, value?: String, values?: { list?: Array<{ title?: String, value?: Number <~ {format: "integer"} | Null }>, "type"?: String } }> } }
+----
+
+
+=== **GroupSLAPolicyFilterObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ all?: Array<GroupSLAPolicyFilterConditionObject> }
+----
+
+
+=== **GroupSLAPolicyMetricObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ business_hours?: Boolean, metric?: String, priority?: String, target?: Number <~ {format: "integer"} }
+----
+
+
+=== **GroupSLAPolicyObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ created_at?: String <~ {format: "date-time"}, description?: String, filter: GroupSLAPolicyFilterObject, id?: String, policy_metrics?: Array<GroupSLAPolicyMetricObject>, position?: Number <~ {format: "integer"}, title: String, updated_at?: String <~ {format: "date-time"}, url?: String }
+----
+
+
+=== **GroupSLAPolicyResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ group_sla_policy?: GroupSLAPolicyObject }
+----
+
+
+=== **GroupsCountObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ count?: { refreshed_at?: String <~ {format: "date-time"}, value?: Number <~ {format: "integer"} } }
+----
+
+
+=== **GroupsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ groups?: Array<GroupObject> }
+----
+
+
+=== **HostMappingObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ cname?: String, expected_cnames?: Array<String>, is_valid?: Boolean, reason?: String }
+----
+
+
+=== **IncrementalSkillBasedRouting** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ attribute_values?: Array<IncrementalSkillBasedRoutingAttributeValue>, attributes?: Array<IncrementalSkillBasedRoutingAttribute>, count?: Number <~ {format: "integer"}, end_time?: Number <~ {format: "integer"}, instance_values?: Array<IncrementalSkillBasedRoutingInstanceValue>, next_page?: String }
+----
+
+
+=== **IncrementalSkillBasedRoutingAttribute** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ id?: String, name?: String, time?: String <~ {format: "date-time"}, "type"?: String }
+----
+
+
+=== **IncrementalSkillBasedRoutingAttributeValue** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ attribute_id?: String, id?: String, name?: String, time?: String <~ {format: "date-time"}, "type"?: String }
+----
+
+
+=== **IncrementalSkillBasedRoutingInstanceValue** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ attribute_value_id?: String, id?: String, instance_id?: String, time?: String <~ {format: "date-time"}, "type"?: String }
+----
+
+
+=== **JobStatusObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ id?: String, job_type?: String, message?: String | Null, progress?: Number <~ {format: "integer"} | Null, results?: Array<JobStatusResultObject> | Null | { success: Boolean }, status?: String, total?: Number <~ {format: "integer"} | Null, url?: String }
+----
+
+
+=== **JobStatusResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ job_status?: JobStatusObject }
+----
+
+
+=== **JobStatusResultObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+Object
+----
+
+
+=== **JobStatusesResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ job_statuses: Array<JobStatusObject> }
+----
+
+
+=== **ListDeletedTicketsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+Object
+----
+
+
+=== **ListTicketCollaboratorsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+Object
+----
+
+
+=== **ListTicketEmailCCsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+Object
+----
+
+
+=== **ListTicketFollowersResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+Object
+----
+
+
+=== **ListTicketIncidentsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+Object
+----
+
+
+=== **ListTicketProblemsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+Object
+----
+
+
+=== **LocaleObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ created_at?: String <~ {format: "date-time"}, id?: Number <~ {format: "integer"}, locale?: String, name?: String, updated_at?: String <~ {format: "date-time"}, url?: String }
+----
+
+
+=== **LocaleResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ locale?: LocaleObject }
+----
+
+
+=== **LocalesResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ locales?: Array<LocaleObject> }
+----
+
+
+=== **MacroApplyTicketResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ result?: { ticket?: { assignee_id?: Number <~ {format: "integer"}, comment?: { body?: String, public?: Boolean, scoped_body?: Array<Array<String>> }, fields?: { id?: Number <~ {format: "integer"}, value?: String }, group_id?: Number <~ {format: "integer"}, id?: Number <~ {format: "integer"}, url?: String } } }
+----
+
+
+=== **MacroAttachmentObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ content_type?: String, content_url?: String, created_at?: String <~ {format: "date-time"}, filename?: String, id?: Number <~ {format: "integer"}, size?: Number <~ {format: "integer"} }
+----
+
+
+=== **MacroAttachmentResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ macro_attachment?: MacroAttachmentObject }
+----
+
+
+=== **MacroAttachmentsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ macro_attachments?: Array<MacroAttachmentObject> }
+----
+
+
+=== **MacroCategoriesResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ categories?: Array<String> }
+----
+
+
+=== **MacroCommonObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ actions: Array<ActionObject>, active?: Boolean, created_at?: String <~ {format: "date-time"}, "default"?: Boolean, description?: String | Null, id?: Number <~ {format: "integer"}, position?: Number <~ {format: "integer"}, restriction?: Object | Null, title: String, updated_at?: String <~ {format: "date-time"}, url?: String }
+----
+
+
+=== **MacroInput** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ actions: Array<ActionObject>, active?: Boolean, description?: String | Null, restriction?: { id?: Number <~ {format: "integer"}, ids?: Array<Number <~ {format: "integer"}>, "type"?: String }, title: String }
+----
+
+
+=== **MacroObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+Object
+----
+
+
+=== **MacroResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ macro?: MacroObject }
+----
+
+
+=== **MacroUpdateManyInput** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ macros?: Array<{ active?: Boolean }> }
+----
+
+
+=== **MacrosResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+Object
+----
+
+
+=== **OffsetPaginationObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ count?: Number <~ {format: "integer"}, next_page?: String | Null, previous_page?: String | Null }
+----
+
+
+=== **OrganizationFieldObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+Object
+----
+
+
+=== **OrganizationFieldResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ organization_field?: OrganizationFieldObject }
+----
+
+
+=== **OrganizationFieldsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ count?: Number <~ {format: "integer"}, next_page?: String | Null, organization_fields?: Array<OrganizationFieldObject>, previous_page?: String | Null }
+----
+
+
+=== **OrganizationMembershipObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ created_at?: String <~ {format: "date-time"}, "default": Boolean | Null, id?: Number <~ {format: "integer"}, organization_id: Number <~ {format: "integer"}, organization_name?: String, updated_at?: String <~ {format: "date-time"}, url?: String, user_id: Number <~ {format: "integer"}, view_tickets?: Boolean }
+----
+
+
+=== **OrganizationMembershipResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ organization_membership?: OrganizationMembershipObject }
+----
+
+
+=== **OrganizationMembershipsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ organization_memberships?: Array<OrganizationMembershipObject> }
+----
+
+
+=== **OrganizationMergeListResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ organization_merges?: Array<{ id?: String, loser_id?: Number <~ {format: "integer"}, status?: "new" | "in_progress" | "error" | "complete", url?: String, winner_id?: Number <~ {format: "integer"} }> }
+----
+
+
+=== **OrganizationMergeRequest** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ organization_merge?: { winner_id?: Number } }
+----
+
+
+=== **OrganizationMergeResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ organization_merge?: { id: String, loser_id: Number <~ {format: "integer"}, status: "new" | "in_progress" | "error" | "complete", url: String, winner_id: Number <~ {format: "integer"} } }
+----
+
+
+=== **OrganizationMetadataObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ tickets_count?: Number <~ {format: "integer"}, users_count?: Number <~ {format: "integer"} }
+----
+
+
+=== **OrganizationObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ created_at?: String, details?: String | Null, domain_names?: Array<String>, external_id?: String | Null, group_id?: Number <~ {format: "integer"} | Null, id?: Number <~ {format: "integer"}, name: String, notes?: String | Null, organization_fields?: { _?: String | Number } | Null, shared_comments?: Boolean, shared_tickets?: Boolean, tags?: Array<String>, updated_at?: String, url?: String }
+----
+
+
+=== **OrganizationResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ organization?: OrganizationObject }
+----
+
+
+=== **OrganizationSubscriptionCreateRequest** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ organization_subscription?: OrganizationSubscriptionInput }
+----
+
+
+=== **OrganizationSubscriptionInput** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ organization_id?: Number <~ {format: "integer"}, user_id?: Number <~ {format: "integer"} }
+----
+
+
+=== **OrganizationSubscriptionObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ created_at?: String <~ {format: "date-time"}, id?: Number <~ {format: "integer"}, organization_id?: Number <~ {format: "integer"}, user_id?: Number <~ {format: "integer"} }
+----
+
+
+=== **OrganizationSubscriptionResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ organization_subscription?: OrganizationSubscriptionObject <~ {label: "Organization Subscriptions"} }
+----
+
+
+=== **OrganizationSubscriptionsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+Object
+----
+
+
+=== **OrganizationsRelatedResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ organization_related?: OrganizationMetadataObject }
+----
+
+
+=== **OrganizationsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ count?: Number <~ {format: "integer"}, next_page?: String | Null, organizations?: Array<OrganizationObject>, previous_page?: String | Null }
+----
+
+
+=== **Pagination** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ links?: { next?: String, prev?: String }, meta?: { after_cursor?: String, before_cursor?: String, has_more?: Boolean } }
+----
+
+
+=== **PushNotificationDevicesInput** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+Array<String>
+----
+
+
+=== **PushNotificationDevicesRequest** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ push_notification_devices?: PushNotificationDevicesInput }
+----
+
+
+=== **QueueObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ created_at?: String <~ {format: "date-time"}, definition?: { all?: Array<{ field?: String, operator?: String, value?: String }>, any?: Array<{ field?: String, operator?: String, value?: String }> }, description?: String, id?: String, name?: String, order?: Number <~ {format: "integer"}, primary_groups?: { count?: Number <~ {format: "integer"}, groups?: Array<{ id?: Number <~ {format: "integer"}, name?: String }> }, priority?: Number <~ {format: "integer"}, secondary_groups?: { count?: Number <~ {format: "integer"}, groups?: Array<{ id?: Number <~ {format: "integer"}, name?: String }> }, updated_at?: String <~ {format: "date-time"}, url?: String }
+----
+
+
+=== **QueueResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ queue?: QueueObject }
+----
+
+
+=== **QueuesResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ queues?: Array<QueueObject> }
+----
+
+
+=== **RecoverSuspendedTicketResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ ticket?: Array<SuspendedTicketObject> }
+----
+
+
+=== **RecoverSuspendedTicketUnprocessableContentResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ ticket?: Array<SuspendedTicketObject> }
+----
+
+
+=== **RecoverSuspendedTicketsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ tickets?: Array<SuspendedTicketObject> }
+----
+
+
+=== **RelationshipFilterDefinition** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ conditions_all?: Array<TriggerConditionDefinitionObjectAll>, conditions_any?: Array<TriggerConditionDefinitionObjectAny> }
+----
+
+
+=== **RelationshipFilterDefinitionResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ definitions?: RelationshipFilterDefinition }
+----
+
+
+=== **RenewSessionResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ authenticity_token?: String }
+----
+
+
+=== **RequestObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ assignee_id?: Number <~ {format: "integer"}, can_be_solved_by_me?: Boolean, collaborator_ids?: Array<Number <~ {format: "integer"}>, created_at?: String <~ {format: "date-time"}, custom_fields?: Array<{ id?: Number <~ {format: "integer"}, value?: String }>, custom_status_id?: Number <~ {format: "integer"}, description?: String, due_at?: String <~ {format: "date-time"}, email_cc_ids?: Array<Number <~ {format: "integer"}>, followup_source_id?: Number <~ {format: "integer"}, group_id?: Number <~ {format: "integer"}, id?: Number <~ {format: "integer"}, is_public?: Boolean, organization_id?: Number <~ {format: "integer"}, priority?: String, recipient?: String, requester_id?: Number <~ {format: "integer"}, solved?: Boolean, status?: String, subject: String, ticket_form_id?: Number <~ {format: "integer"}, "type"?: String, updated_at?: String <~ {format: "date-time"}, url?: String, via?: TicketAuditViaObject }
+----
+
+
+=== **RequestResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ request?: RequestObject }
+----
+
+
+=== **RequestsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ requests?: Array<RequestObject> }
+----
+
+
+=== **ResourceCollectionObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ created_at?: String <~ {format: "date-time"}, id?: Number <~ {format: "integer"}, resources?: Array<{ deleted?: Boolean, identifier?: String, resource_id?: Number <~ {format: "integer"}, "type"?: String }>, updated_at?: String <~ {format: "date-time"} }
+----
+
+
+=== **ResourceCollectionResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ resource_collection?: ResourceCollectionObject }
+----
+
+
+=== **ResourceCollectionsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ count?: Number <~ {format: "integer"}, next_page?: String | Null, previous_page?: String | Null, resource_collections?: Array<ResourceCollectionObject> }
+----
+
+
+=== **ReverseLookupResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+Object
+----
+
+
+=== **SLAPoliciesResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ count?: Number <~ {format: "integer"}, next_page?: String | Null, previous_page?: String | Null, sla_policies?: Array<SLAPolicyObject> }
+----
+
+
+=== **SLAPolicyFilterConditionObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ field?: String, operator?: String, value?: String | Array<String | Number <~ {format: "integer"}> }
+----
+
+
+=== **SLAPolicyFilterDefinitionResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ definitions?: { all?: Array<{ group?: String, operators?: Array<{ title?: String, value?: String }>, target?: String | Null, title?: String, value?: String, values?: { list?: Array<{ title?: String, value?: String | Null }>, "type"?: String } }>, any?: Array<{ group?: String, operators?: Array<{ title?: String, value?: String }>, target?: String | Null, title?: String, value?: String, values?: { list?: Array<{ title?: String, value?: String | Null }>, "type"?: String } }> } }
+----
+
+
+=== **SLAPolicyFilterObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ all?: Array<SLAPolicyFilterConditionObject>, any?: Array<SLAPolicyFilterConditionObject> }
+----
+
+
+=== **SLAPolicyMetricObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ business_hours?: Boolean, metric?: String, priority?: String, target?: Number <~ {format: "integer"} }
+----
+
+
+=== **SLAPolicyObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ created_at?: String <~ {format: "date-time"}, description?: String, filter: SLAPolicyFilterObject, id?: Number <~ {format: "integer"}, policy_metrics?: Array<SLAPolicyMetricObject>, position?: Number <~ {format: "integer"}, title: String, updated_at?: String <~ {format: "date-time"}, url?: String }
+----
+
+
+=== **SLAPolicyResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ sla_policy?: SLAPolicyObject }
+----
+
+
+=== **SatisfactionRatingObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ assignee_id: Number <~ {format: "integer"}, comment?: String, created_at?: String <~ {format: "date-time"}, group_id: Number <~ {format: "integer"}, id?: Number <~ {format: "integer"}, reason?: String, reason_code?: Number <~ {format: "integer"}, reason_id?: Number <~ {format: "integer"}, requester_id: Number <~ {format: "integer"}, score: String, ticket_id: Number <~ {format: "integer"}, updated_at?: String <~ {format: "date-time"}, url?: String }
+----
+
+
+=== **SatisfactionRatingResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ satisfaction_rating?: Array<SatisfactionRatingObject> }
+----
+
+
+=== **SatisfactionRatingsCountResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ count?: { refreshed_at?: String <~ {format: "date-time"}, value?: Number <~ {format: "integer"} } }
+----
+
+
+=== **SatisfactionRatingsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ satisfaction_ratings?: Array<SatisfactionRatingObject> }
+----
+
+
+=== **SatisfactionReasonObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ created_at?: String <~ {format: "date-time"}, deleted_at?: String <~ {format: "date-time"}, id?: Number <~ {format: "integer"}, raw_value?: String, reason_code?: Number <~ {format: "integer"}, updated_at?: String <~ {format: "date-time"}, url?: String, value: String }
+----
+
+
+=== **SatisfactionReasonResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ reason?: Array<SatisfactionReasonObject> }
+----
+
+
+=== **SatisfactionReasonsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ reasons?: Array<SatisfactionReasonObject> }
+----
+
+
+=== **SearchCountResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ count?: Number <~ {format: "integer"} }
+----
+
+
+=== **SearchExportResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ facets?: String | Null, links?: { next?: String | Null, prev?: String | Null }, meta?: { after_cursor?: String | Null, before_cursor?: String | Null, has_more?: Boolean }, results?: Array<SearchResultObject> }
+----
+
+
+=== **SearchResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ count?: Number <~ {format: "integer"}, facets?: String | Null, next_page?: String | Null, previous_page?: String | Null, results?: Array<SearchResultObject> }
+----
+
+
+=== **SearchResultObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ created_at?: String, "default"?: Boolean, deleted?: Boolean, description?: String, id?: Number <~ {format: "integer"}, name?: String, result_type?: String, updated_at?: String, url?: String }
+----
+
+
+=== **SessionObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ authenticated_at?: String | Null, id: Number <~ {format: "integer"}, last_seen_at?: String | Null, url?: String | Null, user_id?: Number <~ {format: "integer"} | Null }
+----
+
+
+=== **SessionResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ session?: Array<SessionObject> }
+----
+
+
+=== **SessionsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ sessions?: Array<SessionObject> }
+----
+
+
+=== **SharingAgreementObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ created_at?: String <~ {format: "date-time"}, id?: Number <~ {format: "integer"}, name?: String, partner_name?: String | Null, remote_subdomain?: String, status?: String, "type"?: String, updated_at?: String <~ {format: "date-time"}, url?: String }
+----
+
+
+=== **SharingAgreementResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ sharing_agreement?: SharingAgreementObject }
+----
+
+
+=== **SharingAgreementsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ sharing_agreements?: Array<SharingAgreementObject> }
+----
+
+
+=== **SkillBasedRoutingAttributeDefinitions** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ definitions?: { conditions_all?: Array<{ subject?: String, title?: String }>, conditions_any?: Array<{ subject?: String, title?: String }> } }
+----
+
+
+=== **SkillBasedRoutingAttributeObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ created_at?: String <~ {format: "date-time"}, id?: String, name: String, updated_at?: String <~ {format: "date-time"}, url?: String }
+----
+
+
+=== **SkillBasedRoutingAttributeResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ attribute?: SkillBasedRoutingAttributeObject }
+----
+
+
+=== **SkillBasedRoutingAttributeValueObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ attribute_id?: String, created_at?: String <~ {format: "date-time"}, id?: String, name?: String, updated_at?: String <~ {format: "date-time"}, url?: String }
+----
+
+
+=== **SkillBasedRoutingAttributeValueResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ attribute_value?: SkillBasedRoutingAttributeValueObject }
+----
+
+
+=== **SkillBasedRoutingAttributeValuesResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ attribute_values?: Array<SkillBasedRoutingAttributeValueObject> }
+----
+
+
+=== **SkillBasedRoutingAttributesResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ attributes?: Array<SkillBasedRoutingAttributeObject>, count?: Number <~ {format: "integer"}, next_page?: String | Null, previous_page?: String | Null }
+----
+
+
+=== **SkillBasedRoutingTicketFulfilledResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ fulfilled_ticket_ids?: Array<Number <~ {format: "integer"}> }
+----
+
+
+=== **SupportAddressObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ brand_id?: Number <~ {format: "integer"}, cname_status?: "unknown" | "verified" | "failed", created_at?: String <~ {format: "date-time"}, "default"?: Boolean, dns_results?: "verified" | "failed", domain_verification_code?: String, domain_verification_status?: "unknown" | "verified" | "failed", email: String, forwarding_status?: "unknown" | "waiting" | "verified" | "failed", id?: Number <~ {format: "integer"}, name?: String, spf_status?: "unknown" | "verified" | "failed", updated_at?: String <~ {format: "date-time"} }
+----
+
+
+=== **SupportAddressResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ recipient_address?: SupportAddressObject }
+----
+
+
+=== **SupportAddressesResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ recipient_addresses?: Array<SupportAddressObject> }
+----
+
+
+=== **SuspendedTicketObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ attachments?: Array<AttachmentObject> | Null, author?: Object, brand_id?: Number <~ {format: "integer"}, cause?: String, cause_id?: Number <~ {format: "integer"}, content?: String, created_at?: String <~ {format: "date-time"}, error_messages?: Array<Object> | Null, id?: Number <~ {format: "integer"}, message_id?: String, recipient?: String, subject?: String, ticket_id?: Number <~ {format: "integer"}, updated_at?: String <~ {format: "date-time"}, url?: String, via?: ViaObject }
+----
+
+
+=== **SuspendedTicketResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ suspended_ticket?: Array<SuspendedTicketObject> }
+----
+
+
+=== **SuspendedTicketsAttachmentsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ upload?: { attachments?: Array<AttachmentObject>, token?: String } }
+----
+
+
+=== **SuspendedTicketsExportResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ export?: { status?: String, view_id?: String } }
+----
+
+
+=== **SuspendedTicketsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ suspended_tickets?: Array<SuspendedTicketObject> }
+----
+
+
+=== **SystemFieldOptionObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ name?: String, value?: String }
+----
+
+
+=== **TagCountObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ refreshed_at?: String, value?: Number <~ {format: "integer"} }
+----
+
+
+=== **TagCountResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ count?: TagCountObject }
+----
+
+
+=== **TagListTagObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ count?: Number <~ {format: "integer"}, name?: String }
+----
+
+
+=== **TagUrlObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ url?: String }
+----
+
+
+=== **TagsByObjectIdResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ tags: Array<String> }
+----
+
+
+=== **TagsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ count?: Number <~ {format: "integer"}, next_page?: String | Null, previous_page?: String | Null, tags?: Array<TagListTagObject> }
+----
+
+
+=== **TargetBasecamp** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ message_id?: String, password?: String, project_id: String, resource: String, target_url: String, todo_list_id?: String, token: String, username?: String }
+----
+
+
+=== **TargetCampfire** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ preserve_format?: Boolean, room: String, ssl?: Boolean, subdomain: String, token: String }
+----
+
+
+=== **TargetClickatell** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ api_id: String, attribute?: String, from?: String, method?: String, password: String, target_url?: String, to: String, us_small_business_account?: String, username: String }
+----
+
+
+=== **TargetCommonFields** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ active?: Boolean, created_at?: String <~ {format: "date-time"}, id?: Number <~ {format: "integer"}, title: String, "type": String }
+----
+
+
+=== **TargetEmail** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ email: String, subject: String }
+----
+
+
+=== **TargetFailureObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ consecutive_failure_count?: Number <~ {format: "integer"}, created_at?: String <~ {format: "date-time"}, id?: Number <~ {format: "integer"}, raw_request?: String, raw_response?: String, status_code?: Number <~ {format: "integer"}, target_name?: String, url?: String }
+----
+
+
+=== **TargetFailureResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ target_failure?: TargetFailureObject }
+----
+
+
+=== **TargetFailuresResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ target_failures?: Array<TargetFailureObject> }
+----
+
+
+=== **TargetFlowdock** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ api_token: String }
+----
+
+
+=== **TargetGetSatisfaction** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ account_name: String, email: String, password: String, target_url?: String }
+----
+
+
+=== **TargetHTTP** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ content_type: String, method: String, password?: String, target_url: String, username?: String }
+----
+
+
+=== **TargetJira** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ password: String, target_url: String, username: String }
+----
+
+
+=== **TargetObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+Object
+----
+
+
+=== **TargetPivotal** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ owner_by?: String, project_id: String, requested_by?: String, story_labels?: String, story_title: String, story_type: String, token: String }
+----
+
+
+=== **TargetResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ target?: TargetObject }
+----
+
+
+=== **TargetTwitter** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ secret?: String, token?: String }
+----
+
+
+=== **TargetURL** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ attribute: String, method?: String, password?: String, target_url: String, username?: String }
+----
+
+
+=== **TargetYammer** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ group_id?: String, token?: String }
+----
+
+
+=== **TargetsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ targets?: Array<TargetObject> }
+----
+
+
+=== **TicketAuditObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ author_id?: Number <~ {format: "integer"}, created_at?: String <~ {format: "date-time"}, events?: Array<Object>, id?: Number <~ {format: "integer"}, metadata?: Object, ticket_id?: Number <~ {format: "integer"}, via?: TicketAuditViaObject }
+----
+
+
+=== **TicketAuditResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ audit?: TicketAuditObject }
+----
+
+
+=== **TicketAuditViaObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ channel?: String, source?: Object }
+----
+
+
+=== **TicketAuditsCountResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ count?: { refreshed_at?: String <~ {format: "date-time"}, value?: Number <~ {format: "integer"} } }
+----
+
+
+=== **TicketAuditsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ after_cursor?: String, after_url?: String, audits?: Array<TicketAuditObject>, before_cursor?: String, before_url?: String }
+----
+
+
+=== **TicketAuditsResponseNoneCursor** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ audits?: Array<TicketAuditObject>, count?: Number <~ {format: "integer"}, next_page?: String | Null, previous_page?: String | Null }
+----
+
+
+=== **TicketBulkImportRequest** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ tickets?: Array<TicketImportInput> }
+----
+
+
+=== **TicketChatCommentRedactionResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ chat_event?: { id?: Number <~ {format: "integer"}, "type"?: String, value?: { chat_id?: String, history?: Array<Object>, visitor_id?: String } } }
+----
+
+
+=== **TicketCommentObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ attachments?: Array<AttachmentObject>, audit_id?: Number <~ {format: "integer"}, author_id?: Number <~ {format: "integer"}, body?: String, created_at?: String <~ {format: "date-time"}, html_body?: String, id?: Number <~ {format: "integer"}, metadata?: Object, plain_body?: String, public?: Boolean, "type"?: String, uploads?: Array<String>, via?: TicketAuditViaObject }
+----
+
+
+=== **TicketCommentResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ comment?: TicketCommentObject }
+----
+
+
+=== **TicketCommentsCountResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ count?: { refreshed_at?: String <~ {format: "date-time"}, value?: Number <~ {format: "integer"} } }
+----
+
+
+=== **TicketCommentsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ comments?: Array<TicketCommentObject> }
+----
+
+
+=== **TicketCreateInput** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ additional_collaborators?: Array<CollaboratorObject>, assignee_email?: String, assignee_id?: Number <~ {format: "integer"}, attribute_value_ids?: Array<Number <~ {format: "integer"}>, collaborator_ids?: Array<Number <~ {format: "integer"}>, comment?: TicketCommentObject, custom_fields?: Array<CustomFieldObject>, custom_status_id?: Number <~ {format: "integer"}, due_at?: String <~ {format: "date-time"} | Null, email_ccs?: Array<EmailCCObject>, external_id?: String, followers?: Array<FollowerObject>, group_id?: Number <~ {format: "integer"}, organization_id?: Number <~ {format: "integer"}, priority?: "urgent" | "high" | "normal" | "low", problem_id?: Number <~ {format: "integer"}, requester_id?: Number <~ {format: "integer"}, safe_update?: Boolean, sharing_agreement_ids?: Array<Number <~ {format: "integer"}>, status?: "new" | "open" | "pending" | "hold" | "solved" | "closed", subject: String, tags?: Array<String>, "type"?: "problem" | "incident" | "question" | "task", updated_stamp?: String <~ {format: "date-time"}, brand_id?: Number <~ {format: "integer"}, collaborators?: Array<CollaboratorObject>, email_cc_ids?: Array<Number <~ {format: "integer"}>, follower_ids?: Array<Number <~ {format: "integer"}>, macro_ids?: Array<Number <~ {format: "integer"}>, raw_subject?: String, recipient?: String, submitter_id?: Number <~ {format: "integer"}, ticket_form_id?: Number <~ {format: "integer"}, via?: ViaObject, via_followup_source_id?: Number <~ {format: "integer"}, description: String }
+----
+
+
+=== **TicketCreateRequest** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ ticket?: TicketCreateInput }
+----
+
+
+=== **TicketCreateVoicemailTicketInput** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ comment?: TicketCommentObject, priority?: "urgent" | "high" | "normal" | "low", via_id?: 44 | 45 | 46, voice_comment?: Object }
+----
+
+
+=== **TicketCreateVoicemailTicketRequest** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ display_to_agent?: Number <~ {format: "integer"}, ticket?: Object }
+----
+
+
+=== **TicketCreateVoicemailTicketVoiceCommentInput** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ answered_by_id?: Number <~ {format: "integer"}, call_duration?: Number <~ {format: "integer"}, from?: String, location?: String, recording_url?: String, started_at?: String <~ {format: "date-time"}, to?: String, transcription_text?: String }
+----
+
+
+=== **TicketFieldCountResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ count?: { refreshed_at?: String <~ {format: "date-time"}, value?: Number <~ {format: "integer"} } }
+----
+
+
+=== **TicketFieldCustomStatusObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ active?: Boolean, agent_label?: String, created_at?: String <~ {format: "date-time"}, "default"?: Boolean, description?: String, end_user_description?: String, end_user_label?: String, id?: Number <~ {format: "integer"}, status_category?: "new" | "open" | "pending" | "hold" | "solved", updated_at?: String <~ {format: "date-time"} }
+----
+
+
+=== **TicketFieldObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ active?: Boolean, agent_description?: String, collapsed_for_agents?: Boolean, created_at?: String <~ {format: "date-time"}, creator_app_name?: String, creator_user_id?: Number <~ {format: "integer"}, custom_field_options?: Array<CustomFieldOptionObject>, custom_statuses?: Array<TicketFieldCustomStatusObject>, description?: String, editable_in_portal?: Boolean, id?: Number <~ {format: "integer"}, position?: Number <~ {format: "integer"}, raw_description?: String, raw_title?: String, raw_title_in_portal?: String, regexp_for_validation?: String | Null, relationship_filter?: Object, relationship_target_type?: String, removable?: Boolean, required?: Boolean, required_in_portal?: Boolean, sub_type_id?: Number <~ {format: "integer"}, system_field_options?: Array<SystemFieldOptionObject>, tag?: String | Null, title: String, title_in_portal?: String, "type": String, updated_at?: String <~ {format: "date-time"}, url?: String, visible_in_portal?: Boolean }
+----
+
+
+=== **TicketFieldResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ ticket_field?: TicketFieldObject }
+----
+
+
+=== **TicketFieldsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ ticket_fields?: Array<TicketFieldObject> }
+----
+
+
+=== **TicketFormObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ active?: Boolean, agent_conditions?: Array<Object>, created_at?: String <~ {format: "date-time"}, "default"?: Boolean, display_name?: String, end_user_conditions?: Array<Object>, end_user_visible?: Boolean, id?: Number <~ {format: "integer"}, in_all_brands?: Boolean, name: String, position?: Number <~ {format: "integer"}, raw_display_name?: String, raw_name?: String, restricted_brand_ids?: Array<Number <~ {format: "integer"}>, ticket_field_ids?: Array<Number <~ {format: "integer"}>, updated_at?: String <~ {format: "date-time"}, url?: String }
+----
+
+
+=== **TicketFormResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ ticket_form?: TicketFormObject }
+----
+
+
+=== **TicketFormsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ ticket_forms?: Array<TicketFormObject> }
+----
+
+
+=== **TicketImportInput** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ assignee_id?: Number <~ {format: "integer"}, comments?: Array<{ value?: String }>, description?: String, requester_id?: Number <~ {format: "integer"}, subject?: String, tags?: Array<String> }
+----
+
+
+=== **TicketImportRequest** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ ticket?: TicketImportInput }
+----
+
+
+=== **TicketMergeInput** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ ids: Array<Number <~ {format: "integer"}>, source_comment?: String, source_comment_is_public?: Boolean, target_comment?: String, target_comment_is_public?: Boolean }
+----
+
+
+=== **TicketMetricEventBaseObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ id?: Number <~ {format: "integer"}, instance_id?: Number <~ {format: "integer"}, metric?: "agent_work_time" | "pausable_update_time" | "periodic_update_time" | "reply_time" | "requester_wait_time" | "resolution_time" | "group_ownership_time", ticket_id?: Number <~ {format: "integer"}, time?: String <~ {format: "date-time"}, "type"?: "activate" | "pause" | "fulfill" | "apply_sla" | "apply_group_sla" | "breach" | "update_status" | "measure" }
+----
+
+
+=== **TicketMetricEventBreachObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+Object
+----
+
+
+=== **TicketMetricEventGroupSLAObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+Object
+----
+
+
+=== **TicketMetricEventSLAObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+Object
+----
+
+
+=== **TicketMetricEventUpdateStatusObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+Object
+----
+
+
+=== **TicketMetricEventsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+Object
+----
+
+
+=== **TicketMetricObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ agent_wait_time_in_minutes?: Object, assigned_at?: String <~ {format: "date-time"}, assignee_stations?: Number <~ {format: "integer"}, assignee_updated_at?: String <~ {format: "date-time"}, created_at?: String <~ {format: "date-time"}, custom_status_updated_at?: String <~ {format: "date-time"}, first_resolution_time_in_minutes?: Object, full_resolution_time_in_minutes?: Object, group_stations?: Number <~ {format: "integer"}, id?: Number <~ {format: "integer"}, initially_assigned_at?: String <~ {format: "date-time"}, latest_comment_added_at?: String <~ {format: "date-time"}, on_hold_time_in_minutes?: Object, reopens?: Number <~ {format: "integer"}, replies?: Number <~ {format: "integer"}, reply_time_in_minutes?: Object, reply_time_in_seconds?: Object, requester_updated_at?: String <~ {format: "date-time"}, requester_wait_time_in_minutes?: Object, solved_at?: String <~ {format: "date-time"}, status_updated_at?: String <~ {format: "date-time"}, ticket_id?: Number <~ {format: "integer"}, updated_at?: String <~ {format: "date-time"}, url?: String }
+----
+
+
+=== **TicketMetricTimeObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ business?: Number <~ {format: "integer"}, calendar?: Number <~ {format: "integer"} }
+----
+
+
+=== **TicketMetricsByTicketMetricIdResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ ticket_metric?: Array<TicketMetricObject> }
+----
+
+
+=== **TicketMetricsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ ticket_metrics?: Array<TicketMetricObject> }
+----
+
+
+=== **TicketObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ allow_attachments?: Boolean | Null, allow_channelback?: Boolean | Null, assignee_email?: String | Null, assignee_id?: Number <~ {format: "integer"} | Null, attribute_value_ids?: Array<Number> | Null, brand_id?: Number <~ {format: "integer"} | Null, collaborator_ids?: Array<Number> | Null, collaborators?: Array<CollaboratorObject> | Null, comment?: Object | Null, created_at?: String <~ {format: "date-time"} | Null, custom_fields?: Array<{ id?: Number }> | Null, custom_status_id?: Number | Null, description?: String | Null, due_at?: String <~ {format: "date-time"} | Null | Null, email_cc_ids?: Array<Number> | Null, email_ccs?: Object | Null, external_id?: String | Null, follower_ids?: Array<Number> | Null, followers?: Object | Null, followup_ids?: Array<Number> | Null, forum_topic_id?: Number | Null, from_messaging_channel?: Boolean | Null, group_id?: Number | Null, has_incidents?: Boolean | Null, id?: Number | Null, is_public?: Boolean | Null, macro_id?: Number | Null, macro_ids?: Array<Number> | Null, metadata?: Object, organization_id?: Number | Null, priority?: "urgent" | "high" | "normal" | "low" | Null, problem_id?: Number | Null, raw_subject?: String | Null, recipient?: String | Null, requester?: Object | Null, requester_id: Number | Null, safe_update?: Boolean | Null, satisfaction_rating?: Object | Null, sharing_agreement_ids?: Array<Number> | Null, status?: "new" | "open" | "pending" | "hold" | "solved" | "closed" | Null, subject?: String | Null, submitter_id?: Number | Null, tags?: Array<String> | Null, ticket_form_id?: Number | Null, "type"?: "problem" | "incident" | "question" | "task" | Null, updated_at?: String <~ {format: "date-time"} | Null, updated_stamp?: String | Null, url?: String | Null, via?: { channel?: String | Null, source?: Object }, via_followup_source_id?: Number | Null, via_id?: Number | Null, voice_comment?: Object }
+----
+
+
+=== **TicketRelatedInformation** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ followup_source_ids?: Array<String>, from_archive?: Boolean, incidents?: Number <~ {format: "integer"}, topic_id?: String | Null, twitter?: Object }
+----
+
+
+=== **TicketResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ ticket?: TicketObject }
+----
+
+
+=== **TicketSkipCreation** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ skip?: TicketSkipObject }
+----
+
+
+=== **TicketSkipObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ created_at?: String <~ {format: "date-time"}, id?: Number <~ {format: "integer"}, reason?: String, ticket?: Object, ticket_id?: Number <~ {format: "integer"}, updated_at?: String <~ {format: "date-time"}, user_id?: Number <~ {format: "integer"} }
+----
+
+
+=== **TicketSkipsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ skips?: Array<TicketSkipObject> }
+----
+
+
+=== **TicketUpdateInput** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ additional_collaborators?: Array<CollaboratorObject>, assignee_email?: String, assignee_id?: Number, attribute_value_ids?: Array<Number>, collaborator_ids?: Array<Number>, comment?: TicketCommentObject, custom_fields?: Array<CustomFieldObject>, custom_status_id?: Number, due_at?: String <~ {format: "date-time"} | Null, email_ccs?: Array<EmailCCObject>, external_id?: String, followers?: Array<FollowerObject>, group_id?: Number, organization_id?: Number, priority?: "urgent" | "high" | "normal" | "low", problem_id?: Number, requester_id?: Number, safe_update?: Boolean, sharing_agreement_ids?: Array<Number>, status?: "new" | "open" | "pending" | "hold" | "solved" | "closed", subject?: String, tags?: Array<String>, "type"?: "problem" | "incident" | "question" | "task", updated_stamp?: String <~ {format: "date-time"}, brand_id?: Number, collaborators?: Array<CollaboratorObject>, email_cc_ids?: Array<Number>, follower_ids?: Array<Number>, macro_ids?: Array<Number>, raw_subject?: String, recipient?: String, submitter_id?: Number, ticket_form_id?: Number, via?: ViaObject, via_followup_source_id?: Number, description?: String }
+----
+
+
+=== **TicketUpdateRequest** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ ticket: TicketUpdateInput }
+----
+
+
+=== **TicketUpdateResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ ticket?: TicketObject }
+----
+
+
+=== **TicketsCreateRequest** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ tickets?: Array<TicketCreateInput> }
+----
+
+
+=== **TicketsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ tickets?: Array<TicketObject> }
+----
+
+
+=== **TimeBasedExportIncrementalTicketsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ count?: Number <~ {format: "integer"}, end_of_stream?: Boolean, end_time?: Number <~ {format: "integer"}, next_page?: String | Null, tickets?: Array<TicketObject> }
+----
+
+
+=== **TimeBasedExportIncrementalUsersResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ count?: Number <~ {format: "integer"}, end_of_stream?: Boolean, end_time?: Number <~ {format: "integer"}, next_page?: String | Null, users?: Array<UserObject> }
+----
+
+
+=== **TrialAccountObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ name?: String, subdomain?: String, url?: String }
+----
+
+
+=== **TrialAccountResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ account?: TrialAccountObject }
+----
+
+
+=== **TriggerActionDefinitionObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ group?: String, nullable?: Boolean, repeatable?: Boolean, subject?: String, title?: String, "type"?: String, values?: Array<{ enabled?: Boolean, title?: String, value?: String }> }
+----
+
+
+=== **TriggerActionDiffObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ field?: Array<TriggerChangeObject>, value?: Array<TriggerChangeObject> }
+----
+
+
+=== **TriggerActionObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ field?: String, value?: String | Number <~ {format: "integer"} | Array<String | Number <~ {format: "integer"}> }
+----
+
+
+=== **TriggerBatchRequest** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ active?: Boolean, category_id?: String, id: String, position?: Number <~ {format: "int64"} }
+----
+
+
+=== **TriggerBulkUpdateItem** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ active?: Boolean, category_id?: String, id: Number <~ {format: "integer"}, position?: Number <~ {format: "integer"} }
+----
+
+
+=== **TriggerBulkUpdateRequest** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ triggers?: Array<TriggerBulkUpdateItem> }
+----
+
+
+=== **TriggerCategoriesResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ trigger_categories?: Array<Object> }
+----
+
+
+=== **TriggerCategory** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ created_at?: String, id?: String, name?: String, position?: Number <~ {format: "int64"}, updated_at?: String }
+----
+
+
+=== **TriggerCategoryBatchRequest** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ id: String, position: Number <~ {format: "int64"} }
+----
+
+
+=== **TriggerCategoryId** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+String
+----
+
+
+=== **TriggerCategoryRequest** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ name?: String, position?: Number <~ {format: "int64"} }
+----
+
+
+=== **TriggerCategoryRequestRequired** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ name: Any }
+----
+
+
+=== **TriggerCategoryResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ trigger_category?: TriggerCategory }
+----
+
+
+=== **TriggerCategoryRuleCounts** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ active_count?: Number <~ {format: "int64"}, inactive_count?: Number <~ {format: "int64"} }
+----
+
+
+=== **TriggerChangeObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ change?: String, content?: Boolean | String | Number <~ {format: "integer"} | Array<String | Number <~ {format: "integer"} | Boolean> }
+----
+
+
+=== **TriggerConditionDefinitionObjectAll** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ group?: String, nullable?: Boolean, operators?: Array<{ terminal?: Boolean, title?: String, value?: String }>, repeatable?: Boolean, subject?: String, title?: String, "type"?: String, values?: Array<{ enabled?: Boolean, title?: String, value?: String }> }
+----
+
+
+=== **TriggerConditionDefinitionObjectAny** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ group?: String, nullable?: Boolean, operators?: Array<{ terminal?: Boolean, title?: String, value?: String }>, repeatable?: Boolean, subject?: String, title?: String, "type"?: String }
+----
+
+
+=== **TriggerConditionDiffObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ field?: Array<TriggerChangeObject>, operator?: Array<TriggerChangeObject>, value?: Array<TriggerChangeObject> }
+----
+
+
+=== **TriggerConditionObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ field?: String, operator?: String, value?: String | Number <~ {format: "integer"} | Array<String | Number <~ {format: "integer"}> }
+----
+
+
+=== **TriggerConditionsDiffObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ all?: Array<TriggerConditionDiffObject> | Null, any?: Array<TriggerConditionDiffObject> | Null }
+----
+
+
+=== **TriggerConditionsObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ all?: Array<TriggerConditionObject> | Null, any?: Array<TriggerConditionObject> | Null }
+----
+
+
+=== **TriggerDefinitionObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ actions?: Array<TriggerActionDefinitionObject>, conditions_all?: Array<TriggerConditionDefinitionObjectAll>, conditions_any?: Array<TriggerConditionDefinitionObjectAny> }
+----
+
+
+=== **TriggerDefinitionResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ definitions?: TriggerDefinitionObject }
+----
+
+
+=== **TriggerObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ actions: Array<TriggerActionObject>, active?: Boolean, category_id?: String, conditions: TriggerConditionsObject, created_at?: String, "default"?: Boolean, description?: String, id?: Number <~ {format: "integer"}, position?: Number <~ {format: "integer"}, raw_title?: String, title: String, updated_at?: String, url?: String }
+----
+
+
+=== **TriggerResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ trigger?: TriggerObject }
+----
+
+
+=== **TriggerRevisionResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ trigger_revision?: { author_id?: Number <~ {format: "integer"}, created_at?: String, id?: Number <~ {format: "integer"}, snapshot?: { actions?: Array<TriggerActionObject>, active?: Boolean, conditions?: TriggerConditionsObject, description?: String | Null, title?: String }, url?: String } }
+----
+
+
+=== **TriggerRevisionsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ after_cursor?: String, after_url?: String, before_cursor?: String, before_url?: String, count?: Number <~ {format: "integer"}, trigger_revisions?: Array<{ author_id?: Number <~ {format: "integer"}, created_at?: String, diff?: { actions?: Array<TriggerActionDiffObject> } }> }
+----
+
+
+=== **TriggerSnapshotObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ actions?: Array<TriggerActionObject>, active?: Boolean, conditions?: TriggerConditionsObject, description?: String | Null, title?: String }
+----
+
+
+=== **TriggerWithCategoryRequest** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ trigger?: TriggerObject & TriggerCategory | TriggerCategoryId }
+----
+
+
+=== **TriggersResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ count?: Number <~ {format: "integer"}, next_page?: String | Null, previous_page?: String | Null, triggers?: Array<TriggerObject> }
+----
+
+
+=== **TwitterChannelObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ allow_reply?: Boolean, avatar_url?: String, brand_id?: Number <~ {format: "integer"}, can_reply?: Boolean, created_at?: String <~ {format: "date-time"}, id: Number <~ {format: "integer"}, name?: String, screen_name: String, twitter_user_id: Number <~ {format: "integer"}, updated_at?: String <~ {format: "date-time"} }
+----
+
+
+=== **TwitterChannelResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ monitored_twitter_handle?: TwitterChannelObject <~ {label: "Monitored X handles"} }
+----
+
+
+=== **TwitterChannelTwicketStatusResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ statuses?: Array<{ favorited?: Boolean, id?: Number <~ {format: "integer"}, retweeted?: Boolean, user_followed?: Boolean }> }
+----
+
+
+=== **TwitterChannelsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ monitored_twitter_handles?: Array<TwitterChannelObject> }
+----
+
+
+=== **UpdateResourceResult** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ action: String, id: Number <~ {format: "integer"}, status: String, success: Boolean }
+----
+
+
+=== **UrlObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ url?: String }
+----
+
+
+=== **UserCreateInput** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ custom_role_id?: Number <~ {format: "integer"}, email: String, external_id?: String, identities?: Array<{ "type": String, value: String }>, name: String, organization?: { name: String }, organization_id?: Number <~ {format: "integer"}, role?: String }
+----
+
+
+=== **UserFieldObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+Object
+----
+
+
+=== **UserFieldResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ user_field?: UserFieldObject }
+----
+
+
+=== **UserFieldsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ count?: Number <~ {format: "integer"}, next_page?: String | Null, previous_page?: String | Null, user_fields?: Array<UserFieldObject> }
+----
+
+
+=== **UserForAdmin** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ active?: Boolean, alias?: String, chat_only?: Boolean, created_at?: String, custom_role_id?: Number <~ {format: "integer"} | Null, default_group_id?: Number <~ {format: "integer"}, details?: String, email?: String, external_id?: String | Null, iana_time_zone?: String, id?: Number <~ {format: "integer"}, last_login_at?: String, locale?: String, locale_id?: Number <~ {format: "integer"}, moderator?: Boolean, name: String, notes?: String, only_private_comments?: Boolean, organization_id?: Number <~ {format: "integer"} | Null, phone?: String | Null, photo?: Object | Null, remote_photo_url?: String, report_csv?: Boolean, restricted_agent?: Boolean, role?: String, role_type?: Number <~ {format: "integer"} | Null, shared?: Boolean, shared_agent?: Boolean, shared_phone_number?: Boolean | Null, signature?: String, suspended?: Boolean, tags?: Array<String>, ticket_restriction?: String | Null, time_zone?: String, two_factor_auth_enabled?: Boolean | Null, updated_at?: String, url?: String, user_fields?: Object, verified?: Boolean }
+----
+
+
+=== **UserForEndUser** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ created_at?: String, email?: String, iana_time_zone?: String, id?: Number <~ {format: "integer"}, locale?: String, locale_id?: Number <~ {format: "integer"}, name: String, organization_id?: Number <~ {format: "integer"}, phone?: String, photo?: Object, role?: String, shared_phone_number?: Boolean, time_zone?: String, updated_at?: String, url?: String, verified?: Boolean }
+----
+
+
+=== **UserIdentitiesResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ identities?: Array<UserIdentityObject> }
+----
+
+
+=== **UserIdentityObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ created_at?: String <~ {format: "date-time"}, deliverable_state?: String, id?: Number <~ {format: "integer"}, primary?: Boolean, "type": "email" | "twitter" | "facebook" | "google" | "phone_number" | "agent_forwarding" | "any_channel" | "foreign" | "sdk", undeliverable_count?: Number <~ {format: "integer"}, updated_at?: String <~ {format: "date-time"}, url?: String, user_id: Number <~ {format: "integer"}, value: String, verified?: Boolean }
+----
+
+
+=== **UserIdentityResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ identity?: UserIdentityObject }
+----
+
+
+=== **UserInput** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+Object
+----
+
+
+=== **UserMergeByIdInput** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ id?: Number <~ {format: "integer"} }
+----
+
+
+=== **UserMergePropertiesInput** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ email?: String, name?: String, organization_id?: Number <~ {format: "integer"}, password?: String }
+----
+
+
+=== **UserObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+Object
+----
+
+
+=== **UserPasswordRequirementsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ requirements?: Array<String> }
+----
+
+
+=== **UserRelatedObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ assigned_tickets?: Number <~ {format: "integer"}, ccd_tickets?: Number <~ {format: "integer"}, organization_subscriptions?: Number <~ {format: "integer"}, requested_tickets?: Number <~ {format: "integer"} }
+----
+
+
+=== **UserRelatedResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ user_related?: UserRelatedObject }
+----
+
+
+=== **UserRequest** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ user: UserInput }
+----
+
+
+=== **UserResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ user?: UserObject }
+----
+
+
+=== **UsersRequest** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ users: Array<UserInput> }
+----
+
+
+=== **UsersResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ users?: Array<UserObject> }
+----
+
+
+=== **ViaObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ channel?: String, source?: { from?: { address?: String | Null, id?: Number <~ {format: "integer"} | Null, name?: String | Null, title?: String | Null }, rel?: String | Null, to?: { address?: String, name?: String } } }
+----
+
+
+=== **ViewCountObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ active?: Boolean, fresh?: Boolean, pretty?: String, url?: String, value?: Number <~ {format: "integer"} | Null, view_id?: Number <~ {format: "integer"} }
+----
+
+
+=== **ViewCountResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ view_count?: ViewCountObject }
+----
+
+
+=== **ViewCountsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ view_counts?: Array<ViewCountObject> }
+----
+
+
+=== **ViewExportResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ export?: { status?: String, view_id?: Number <~ {format: "integer"} } }
+----
+
+
+=== **ViewObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ active?: Boolean, conditions?: Object, created_at?: String <~ {format: "date-time"}, "default"?: Boolean, description?: String, execution?: Object, id?: Number <~ {format: "integer"}, position?: Number <~ {format: "integer"}, restriction?: Object, title?: String, updated_at?: String <~ {format: "date-time"} }
+----
+
+
+=== **ViewResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ columns?: Array<Object>, groups?: Array<Object>, rows?: Array<Object>, view?: ViewObject }
+----
+
+
+=== **ViewsCountResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ count?: { refreshed_at?: String <~ {format: "date-time"}, value?: Number <~ {format: "integer"} } }
+----
+
+
+=== **ViewsResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ count?: Number <~ {format: "integer"}, next_page?: String | Null, previous_page?: String | Null, views?: Array<ViewObject> }
+----
+
+
+=== **WorkspaceInput** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ conditions?: ConditionsObject, description?: String, macros?: Array<Number>, ticket_form_id?: Number, title?: String }
+----
+
+
+=== **WorkspaceObject** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+{ activated?: Boolean, apps?: Array<Object>, conditions?: ConditionsObject, created_at?: String <~ {format: "date-time"}, description?: String, id?: Number <~ {format: "integer"}, macro_ids?: Array<Number <~ {format: "integer"}>, macros?: Array<Number <~ {format: "integer"}>, position?: Number <~ {format: "integer"}, prefer_workspace_app_order?: Boolean, selected_macros?: Array<MacroObject>, ticket_form_id?: Number <~ {format: "integer"}, title?: String, updated_at?: String <~ {format: "date-time"}, url?: String }
+----
+
+
+=== **WorkspaceResponse** link:#index [↑↑]
+
+
+
+
+.Definition
+
+[source,DataWeave,linenums]
+----
+Object
+----
+
+
+
+
